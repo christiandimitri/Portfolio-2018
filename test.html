@@ -15,7 +15,6 @@
 </head>
 
 <body>
-$for(projects)$
     <div class="row-layout">
         <div class="white-row">
         </div>
@@ -28,29 +27,27 @@ $for(projects)$
         <div class="row-one">
             <div class="column-left">
                 <div class="big-images">
-                    $for(projects.big-images)$
-                    <div class="big-image" style="background-image:url($projects.big-images$)"></div>
-                    $endfor$
-                </div>
+                                        <div class="big-image" style="background-image:url(img/img_chania.jpg)"></div>
+                                    </div>
             </div>
 
             <div class="column-right">
                 <div class="top-row">
                     <div class="project-author">
                         <h6 class="project-detail" id="author">Author:</h6>
-                        <p class="authors">$projects.author$</p>
+                        <p class="authors">project author2</p>
                     </div>
                     <div class="project-author">
                         <h6 class="project-detail">Location:</h6>
-                        <p class="authors">$projects.location$</p>
+                        <p class="authors">barcelona</p>
                     </div>
                     <div class="project-author">
                         <h6 class="project-detail">Date:</h6>
-                        <p class="authors">$projects.date$</p>
+                        <p class="authors">2018</p>
                     </div>
                     <div class="project-author">
                         <h6 class="project-detail" id="subject">Subject:</h6>
-                        <p class="authors">$projects.subject$</p>
+                        <p class="authors">fuck off2</p>
                     </div>
                     <div class="project-author">
                         <h6 class="project-detail">Area:</h6>
@@ -73,9 +70,9 @@ $for(projects)$
                 <div class="gray-bar"></div>
                 <div class="colored-bar"></div>
                 <div class="content-bar">
-                    <h1>$projects.title$</h1>
-                    <h2>$projects.subtitle$</h2>
-                    <p>$projects.description$</p>
+                    <h1>project1</h1>
+                    <h2>subtitle1</h2>
+                    <p>working XXXXX The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design &amp; construction of the membrane, some assumptions had to be made in order to simplify the welding process.</p>
                 </div>
             </div>
             <div class="column-right">
@@ -86,7 +83,7 @@ $for(projects)$
                     </div>
                     <div class="project-author no-border">
                         <h6 class="project-detail" id="firm">FIRM:</h6>
-                        <p class="authors align">$projects.firm$</p>
+                        <p class="authors align">MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)</p>
                     </div>
                     <div class="project-author no-border">
                         <h6 class="project-detail" id="supervisor">SUPERVISOR:</h6>
@@ -107,14 +104,14 @@ $for(projects)$
             </div>
             <div class="column-right">
                 <div class="keywords">
-                    $for(projects.keywords)$
-                    <p>$projects.keywords$</p>
-                    $endfor$
-                </div>
+                                        <p>1</p>
+                                        <p>2</p>
+                                        <p>3</p>
+                                        <p>4</p>
+                                    </div>
             </div>
         </div>
     </div>
-$endfor$
 </body>
 
 </html>
