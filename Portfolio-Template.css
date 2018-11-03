@@ -178,7 +178,7 @@ page[size="A3"][layout="landscape"] {
     height: 100%;
     width: 100%;
     margin: auto;    
-    background-position: center; 
+    background-position: bottom; 
     background-size: cover;
 }
 .top-row{

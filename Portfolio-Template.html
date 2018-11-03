@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    
 $for(projects)$
     <div class="row-layout">
         <div class="white-row">
@@ -54,7 +55,7 @@ $for(projects)$
                     </div>
                     <div class="project-author">
                         <h6 class="project-detail">Area:</h6>
-                        <p class="authors">37,68 sqm</p>
+                        <p class="authors">$projects.area$</p>
                     </div>
                 </div>
                 <div class="bottom-row">
@@ -81,8 +82,9 @@ $for(projects)$
             <div class="column-right">
                 <div class="project-type" id="details">
                     <div class="project-author no-border">
+
                         <h6 class="project-detail" id="category">CATEGORY:</h6>
-                        <p class="authors align">Case Study</p>
+                        <p class="authors align">$projects.category$</p>
                     </div>
                     <div class="project-author no-border">
                         <h6 class="project-detail" id="firm">FIRM:</h6>
@@ -90,7 +92,7 @@ $for(projects)$
                     </div>
                     <div class="project-author no-border">
                         <h6 class="project-detail" id="supervisor">SUPERVISOR:</h6>
-                        <p class="authors align">Enrique Soriano, Gerard Bertomeu</p>
+                        <p class="authors align">$projects.supervisor$</p>
                     </div>
                 </div>
             </div>
@@ -98,10 +100,9 @@ $for(projects)$
         <div class="row-three">
             <div class="column-left">
                 <div class="small-images">
-                    <div class="small-image" style="background-image:url(img/img_chania.jpg)"></div>
-                    <div class="small-image" style="background-image: url(img/pic_trulli.jpg)"></div>
-                    <div class="small-image" style="background-image:url(img/img_girl.jpg)"></div>
-                    <div class="small-image" style="background-image:url(img/gheryDisney.jpg)"></div>
+                    $for(projects.small-images)$
+                    <div class="small-image" style="background-image:url($projects.small-images$)"></div>
+                    $endfor$
                 </div>
 
             </div>
