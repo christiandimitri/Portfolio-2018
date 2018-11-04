@@ -208,6 +208,12 @@ page[size="A3"][layout="landscape"] {
     border-left: 1px solid lightgray;
     
 }
+.project-icon{
+    width: 150px;
+    height: 150px;
+    background-image: url(chebyshev/projecticon.svg)
+    
+}
 .no-border{
     border:0;
     padding-top: 1.5em;
