@@ -121,15 +121,9 @@ page[size="A3"][layout="landscape"] {
     height: 100%;
     width: 100%;
     position: absolute;
-    display: flex;
-    flex-direction: column;
 }
-.portfolio-index .index-item{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
+.portfolio-index p{
+    position
 }
 .column-left{
     width:70%;
