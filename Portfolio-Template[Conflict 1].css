@@ -68,6 +68,7 @@ page[size="A3"][layout="landscape"] {
     display: flex;
     flex-direction: row;
 }
+
 .big-images{
     width: 100%;
     height: 100%;
@@ -133,7 +134,7 @@ page[size="A3"][layout="landscape"] {
     z-index: 10;
     padding-left: 1.5em;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 120$;
 }
 
 .overlay{
@@ -156,14 +157,14 @@ page[size="A3"][layout="landscape"] {
 }
 .gray-bar{
     height: 100%;
-    width: 30px;
+    width: 50px;
     background-color: dimgray;
     flex-basis: auto;
     flex-shrink: 0;
 }
 .colored-bar{
     height: 100%;
-    width:60px;
+    width:30px;
     background-color: steelblue;
     flex-basis: auto;
     flex-shrink: 0;
@@ -171,25 +172,11 @@ page[size="A3"][layout="landscape"] {
 
 #clipped{
     position: absolute;
-    left:30px;   
+    left:50px;   
     height: 160%;   
     bottom: 0;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0% 100%, 0 0, 50% 10px);
     clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0% 100%, 0 0, 50% 10px);
-}
-.index-description{
-    display: flex;
-    align-items: center; 
-    padding-right:5em;
-    padding-left: 5em;
-    line-height: 1.5em;
-    background-color: whitesmoke;
-    font-size: 150%;
-}
-
-.index-description p{
-    margin-block-end: 0;
-    margin-block-start: 0;
 }
 
 .row-two{
