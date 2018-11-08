@@ -1,6 +1,7 @@
 body {
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -177,7 +178,7 @@ page[size="A3"][layout="landscape"] {
     height: 100%;
     width: 100%;
     margin: auto;    
-    background-position: center; 
+    background-position: bottom; 
     background-size: cover;
 }
 .top-row{
@@ -205,6 +206,12 @@ page[size="A3"][layout="landscape"] {
     flex-direction: row;
     margin-bottom: 5px;  
     border-left: 1px solid lightgray;
+    
+}
+.project-icon{
+    width: 150px;
+    height: 150px;
+    background-image: url(chebyshev/projecticon.svg)
     
 }
 .no-border{
@@ -293,13 +300,12 @@ h6{
     min-height:1cm; 
     width: 2.2cm;
     color: whitesmoke;
-    border-style: solid;
     background-color: dimgray;
     border-radius: 5px;
-    margin-block-start: 0.5em;
+    margin-block-start: auto;
     margin-left: 1em;
     margin-right: 1em;
-    margin-block-end: 0.5em;
+    margin-block-end: auto;
 }
 
 

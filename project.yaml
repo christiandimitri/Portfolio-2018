@@ -1,0 +1,33 @@
+---
+title: pagetitle
+projects:
+- title: Chebyshev Net triangular gridshell
+  subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
+  description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
+  author: "Christian DIMITRI, Martina FABRÉ, Noelia RODRIGUEZ, Jatziri RODRIGUEZ, Alan RYNNE, Martí SAIS"
+  date: July 2018
+  location: Barcelona
+  area: 28.3sqm
+  subject: Post-production and building
+  icon: chebyshev/projecticon.svg
+  category: Case Study
+  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  big-images:
+  - chebyshev/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  - chebyshev/botellas-centro.gif
+  small-images:
+  - chebyshev/GRIDSHELL-0706-28.jpg
+  - chebyshev/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
+  - chebyshev/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  keywords: 
+  - elastic gridshell
+  - lightweight structure
+  - temporary pavilion
+  - gridshell bracing
+  - composite materials
+  - spherical domes
+  - active bending
+  - elastic membrane
+---
+
