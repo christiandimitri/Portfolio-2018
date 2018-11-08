@@ -9,6 +9,7 @@ projects:
   location: Barcelona
   area: 28.3sqm
   subject: Post-production and building
+  icon: chebyshev/projecticon.svg
   category: Case Study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
