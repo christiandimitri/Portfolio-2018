@@ -1,6 +1,7 @@
 ---
 title: pagetitle
 projects:
+
 - title: Chebyshev Net triangular gridshell
   subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
@@ -13,13 +14,19 @@ projects:
   category: Case Study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
+  index-img: chebyshev/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
   big-images:
-  - chebyshev/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-  - chebyshev/botellas-centro.gif
+  - img: chebyshev/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+    author: Andres Flajszer
+    link: http://www.andresflajszer.com/
+  - img: chebyshev/botellas-centro.gif
   small-images:
-  - chebyshev/GRIDSHELL-0706-28.jpg
-  - chebyshev/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
-  - chebyshev/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  - img: chebyshev/GRIDSHELL-0706-28.jpg
+  - img: chebyshev/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
+    author: Andres Flajszer
+  - img: chebyshev/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+    author: Andres Flajszer    
+    link: http://www.andresflajszer.com/
   keywords: 
   - elastic gridshell
   - lightweight structure

@@ -23,14 +23,23 @@ $for(projects)$
         <div class="empty-row">
             <div class="column-left" id="header-gray-bar">
                 <div class="gray-bar"></div>
-                <div class="colored-bar"></div>
+                <div class="colored-bar" id="clipped"></div>
             </div>
         </div>
         <div class="row-one">
             <div class="column-left">
                 <div class="big-images">
                     $for(projects.big-images)$
-                    <div class="big-image" style="background-image:url($projects.big-images$)"></div>
+                    <div class="big-image" style="background-image:url($projects.big-images.img$)">
+                        $if(projects.big-images.author)$
+                        <div class="photo-credits">
+                        <p>
+                            Image By
+                            <a href="http://www.andresflajszer.com/">$projects.big-images.author$</a>
+                        </p>
+                        </div>
+                        $endif$
+                    </div>
                     $endfor$
                 </div>
             </div>
@@ -97,7 +106,21 @@ $for(projects)$
             <div class="column-left">
                 <div class="small-images">
                     $for(projects.small-images)$
-                    <div class="small-image" style="background-image:url($projects.small-images$)"></div>
+                    <div class="small-image" style="background-image:url($projects.small-images.img$)">
+                        $if(projects.small-images.author)$
+                        <div class="photo-credits">
+                            <p>
+                                Image By
+                                $if(projects.small-images.link)$
+                                <a href="$projects.small-images.link$">$projects.small-images.author$</a>
+                                $else$
+                                <strong>$projects.small-images.author$</strong>
+                                $endif$
+                                
+                            </p>
+                            </div>
+                            $endif$
+                    </div>
                     $endfor$
                 </div>
 
