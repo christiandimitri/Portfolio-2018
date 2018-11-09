@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Portfolio-Template.css" />
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -18,42 +19,44 @@
     <div class="row-layout">
         <div class="white-row"></div>
         <div class="empty-row">
-                <div class="column-left" id="header-gray-bar">
-                    <div class="gray-bar"></div>
-                    <div class="colored-bar" id="clipped"></div>
+            <div class="column-left" id="header-gray-bar">
+                <div class="gray-bar"></div>
+                <div class="colored-bar" id="clipped"></div>
+            </div>
+        </div>
+        <div class='index'>
+            <div class="column-left">
+                <div class="gray-bar"></div>
+                <div class="colored-bar"></div>
+                <div class="index-description">
+                    <div class="author-image"></div>
+                    <p>I am Christian Dimitri, I am an optimistic Architect specialized in parametric architecture and
+                        computational design. As a self taught computational designer and 3D visualizer, I am able to
+                        say that I am familiar with the computational tools available today.</p>
                 </div>
             </div>
-        <div class='index'>
-                <div class="column-left">
-                        <div class="gray-bar"></div>
-                        <div class="colored-bar"></div>
-                    <div class="index-description">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="column-right">
+                <div class="portfolio-index">
+                    $for(projects)$
+                    <div class="big-image index-item" style="background-image: url($projects.index-img$)">
+                        <div class="overlay"></div>
+                        <p>$projects.title$</p>
+                    </div>
 
+                    $endfor$
+                    <div class="index-item">
+                        <p>project title</p>
                     </div>
-                </div>
-                <div class="column-right">
-                    <div class="portfolio-index">
-                        $for(projects)$
-                        <div class="big-image index-item" style="background-image: url($projects.index-img$)">
-                            <div class="overlay"></div>
-                            <p>$projects.title$</p>
-                        </div>
-                        
-                        $endfor$
-                        <div class="index-item">
-                            <p>project title</p>
-                        </div>
-                        <div class="index-item">
-                            <p>project title</p>
-                        </div>
-                        
+                    <div class="index-item">
+                        <p>project title</p>
                     </div>
-                    
+
                 </div>
+
+            </div>
         </div>
     </div>
-$for(projects)$
+    $for(projects)$
     <div class="row-layout">
         <div class="white-row">
         </div>
@@ -70,10 +73,10 @@ $for(projects)$
                     <div class="big-image" style="background-image:url($projects.big-images.img$)">
                         $if(projects.big-images.author)$
                         <div class="photo-credits">
-                        <p>
-                            Image By
-                            <a href="http://www.andresflajszer.com/">$projects.big-images.author$</a>
-                        </p>
+                            <p>
+                                Image By
+                                <a href="http://www.andresflajszer.com/">$projects.big-images.author$</a>
+                            </p>
                         </div>
                         $endif$
                     </div>
@@ -105,7 +108,20 @@ $for(projects)$
                     </div>
                 </div>
                 <div class="bottom-row">
+                    <div class="project-tools">
+                        <div class="arrow">
+                            <p>grasshopper3D</p>
+
+                        </div>
+                        <div class="arrow">
+                        <p>rhino3d</p>
+                        </div>
+                    </div>
+                    <div class="icon-container">
                         <div class="project-icon" style="background-image: url($projects.icon$)"></div>
+                    </div>
+
+
                 </div>
 
 
@@ -153,10 +169,10 @@ $for(projects)$
                                 $else$
                                 <strong>$projects.small-images.author$</strong>
                                 $endif$
-                                
+
                             </p>
-                            </div>
-                            $endif$
+                        </div>
+                        $endif$
                     </div>
                     $endfor$
                 </div>
@@ -171,7 +187,7 @@ $for(projects)$
             </div>
         </div>
     </div>
-$endfor$
+    $endfor$
 </body>
 
 </html>
