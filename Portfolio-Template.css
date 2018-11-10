@@ -381,7 +381,6 @@ h6{
     width: 100%;
     background-color: white;
     padding-top: 1em;
-    padding-left: 55px;
 
 }
 .project-tools .arrow{
@@ -394,12 +393,16 @@ h6{
     flex-shrink: 0;
     margin-block-end: 1.5em;
     margin-block-start: 1.5em;
-    width: 105%;
+    left:-5%;
+    transform: translateX(-10%);
     padding-left: 15px;
     justify-content: center;
     text-align: center;
     height: 30px;
     color: white;
+    -webkit-box-shadow:-37px 16px 13px 12px black ;
+    -moz-box-shadow:-37px 16px 13px 12px black;
+    box-shadow:-37px 16px 13px 12px black ;
 }
 .project-tools p{
     align-self: center;
@@ -435,13 +438,16 @@ h6{
     font-size: 80%;  
     min-height:1cm; 
     width: 2.7cm;
-    color: whitesmoke;
-    background-color: dimgray;
+    color: dimgray;
+    border-color: steelblue;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 5px;
     margin-block-start: auto;
     margin-left: 0.6em;
     margin-right: 0.6em;
     margin-block-end: auto;
+    font-weight: 600;
 }
 
 

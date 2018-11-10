@@ -22,9 +22,9 @@ projects:
   - img: img/PositiveCurvaturePQMesh@10x.jpg
   - img: img/BenchmarkPQMesh@10x.jpg
   small-images:
-  - img: img/Figure_14@10x.jpg
-  - img: img/Figure_16@10x.jpg
-  - img: img/
+  - img: img/FF@10x.png
+  - img: img/FF@10x.png
+  - img: img/PQOptimized.png
   keywords: 
   - Planar quads
   - Free-form surfaces
