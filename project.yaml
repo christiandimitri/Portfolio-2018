@@ -6,7 +6,7 @@ author:
   description:
 projects:
 - title: Planar Quads in Architecture Free-Form Surfaces
-  subtitle: Architecture free-form rationalisation techniques
+  subtitle: Rationalisation techniques
   description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind planar quads for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be PQ meshes. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a PQ mesh."
   author: "Christian Dimitri"
   date: July 2018
@@ -22,21 +22,21 @@ projects:
   - img: img/PositiveCurvaturePQMesh@10x.jpg
   - img: img/BenchmarkPQMesh@10x.jpg
   small-images:
-  - img: img/FF@10x.png
+  - img: img/Int@10x.png
   - img: img/FF@10x.png
   - img: img/PQOptimized.png
   keywords: 
-  - Planar quads
-  - Free-form surfaces
-  - Rationalisation
-  - High curvature meshes
-  - Curve networks
-  - Conformal mapping
-  - Frame fields
-  - Subdivision technique
+  - planar quads
+  - free-form surfaces
+  - rationalisation
+  - high curvature meshes
+  - curve networks
+  - conformal mapping
+  - frame fields
+  - subdivision technique
 
 
-- title: Chebyshev Net triangular gridshell
+- title: Chebyshev Net Triangular Gridshell
   subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
   author: "Christian DIMITRI, Martina FABRÉ, Noelia RODRIGUEZ, Jatziri RODRIGUEZ, Alan RYNNE, Martí SAIS"
