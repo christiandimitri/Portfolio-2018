@@ -50,7 +50,7 @@ projects:
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
   author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
   date: July 2018
-  location: Barcelona
+  project-location: Barcelona
   area: 1846 sqm
   subject: Post-production and building
   sector: Temporary pavillon
@@ -66,6 +66,7 @@ projects:
   category: Case study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
+  location: Barcelona
   index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
   big-images:
   - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
@@ -106,6 +107,7 @@ Rachid Naboulsiv."
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
   index-img: img/WaitomoCoverimg@10x.png
+  location: Barcelona
 
   big-images:
   - img: img/WaitomoCoverimg@10x.png
