@@ -6,16 +6,25 @@ author:
   description:
 projects:
 - title: Planar Quads in Architecture Free-Form Surfaces
-  subtitle: Rationalisation techniques
-  description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind planar quads for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be PQ meshes. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a PQ mesh."
+  subtitle: Rationalization technqiues for Planar Quad meshes
+  description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
   author: "Christian Dimitri"
   date: July 2018
-  location: Barcelona
-  area: 28.3sqm
-  subject: Architecture Geometry
-  icon: 
-  category: Masters Thesis
+  subject: Architecture geometry
+  sector: Planar quad meshes
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - VSC
+  - Csharp
+  - python
+  - pandoc/latex
+  - illustrator
+  - photoshop
+
+  category: Masters thesis
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
+  location: Barcelona
   supervisor: Enrique Soriano
   index-img: img/PositiveCurvaturePQMesh@10x.jpg
   big-images:
@@ -26,10 +35,10 @@ projects:
   - img: img/FF@10x.png
   - img: img/PQOptimized.png
   keywords: 
-  - planar quads
   - free-form surfaces
+  - planarity
   - rationalisation
-  - high curvature meshes
+  - aspect ratio
   - curve networks
   - conformal mapping
   - frame fields
@@ -39,17 +48,25 @@ projects:
 - title: Chebyshev Net Triangular Gridshell
   subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
-  author: "Christian DIMITRI, Martina FABRÉ, Noelia RODRIGUEZ, Jatziri RODRIGUEZ, Alan RYNNE, Martí SAIS"
+  author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
   date: July 2018
   location: Barcelona
-  area: 28.3sqm
+  area: 1846 sqm
   subject: Post-production and building
-  icon: img/projecticon.svg
-  category: Case Study
+  sector: Temporary pavillon
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - VSC
+  - Csharp
+  - 3dsmax
+  - Vray
+  - illustrator
+  - photoshop
+  category: Case study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
   index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-
   big-images:
   - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
     author: Andres Flajszer
@@ -73,33 +90,33 @@ projects:
   - elastic membrane
 
 
-- title: Chebyshev Net triangular gridshell
-  subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
-  description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
-  author: "Christian DIMITRI, Martina FABRÉ, Noelia RODRIGUEZ, Jatziri RODRIGUEZ, Alan RYNNE, Martí SAIS"
-  date: July 2018
-  location: Barcelona
+- title: Geodesic Gridshells Waitomo Visitor Center
+  subtitle: Building systems optimization
+  description: "This research presents a case study of the
+Waitomo caves visitor center, explaining the
+different design strategies going from the form-finding and analysis till the optimization of the building system. The final step consists of adapting the same design system after collecting the information in the previous step onto a free form surface. The project is a wooden grid shell made of geodesic beam on a toroid. In order to study the project multiple
+3D models where made to approximate the real project then analyzing and comparing the data between different 3D results."
+  author: "Christian Dimitri, Sebastian Sánchez, Orlando Torricos
+Rachid Naboulsiv."
+  date: February 2018
+  project-location: New Zealand, Waitomo
   area: 28.3sqm
   subject: Post-production and building
-  icon: img/projecticon.svg
-  category: Case Study
+  category: Case study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
-  index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  index-img: img/WaitomoCoverimg@10x.png
 
   big-images:
-  - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-    author: Andres Flajszer
-    link: http://www.andresflajszer.com/
-  - img: img/botellas-centro.gif
+  - img: img/WaitomoCoverimg@10x.png
+  - img: img/WaitomoAxo.png
+  - img: img/WaitomoDupinAdapAxo.png
   small-images:
-  - img: img/GRIDSHELL-0706-28.jpg
-  - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
-    author: Andres Flajszer
-  - img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-    author: Andres Flajszer    
-    link: http://www.andresflajszer.com/
-  keywords: 
+  - img: 
+  - img: 
+  - img: img/AdaptedWaitomoDupin.png
+  - img: img/AdaptedWaitomoDupinOptimized.png
+  keywords:
   - elastic gridshell
   - lightweight structure
   - temporary pavilion
@@ -108,6 +125,5 @@ projects:
   - spherical domes
   - active bending
   - elastic membrane
-
 ---
 

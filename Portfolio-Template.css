@@ -163,7 +163,7 @@ page[size="A3"][layout="landscape"] {
 }
 .colored-bar{
     height: 100%;
-    width:60px;
+    width:30px;
     background-color: steelblue;
     flex-basis: auto;
     flex-shrink: 0;
@@ -282,9 +282,8 @@ page[size="A3"][layout="landscape"] {
     background-size: cover;
 }
 .top-row{
-    height: 50%;
+    height: 70%;
     background-color: white;
-    padding-top: 1em;
     padding-left: auto;
     padding-right: 35px;
     padding-left: 25px;    
@@ -302,28 +301,26 @@ page[size="A3"][layout="landscape"] {
     color:dimgray;
 }
 .project-author{
+    width:100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 5px;  
     border-left: 1px solid lightgray;
     
 }
-.project-icon{
-    width: 150px;
-    height: 150px;
-    background-image: url(img/projecticon.svg);
-    align-self: center;
-}
+
 .no-border{
     border:0;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 0em;
 }
+
 #author{
     flex-basis: auto;
     flex-shrink: 0;
 }
+
 #firm{
     color: white;
     flex-basis: auto;
@@ -331,14 +328,22 @@ page[size="A3"][layout="landscape"] {
     border-left: 0;
     padding-left: 0;
 }
+#firm-location{
+    color: white;
+    flex-basis: auto;
+    flex-shrink: 0;
+    border-left: 0;
+    padding-left: 0;
+}
+
 #category{
     color: white;
     flex-basis: auto;
     flex-shrink: 0;    
      border-left: 0;
      padding-left: 0;
-
 }
+
 #supervisor{
     color: white;
     flex-basis: auto;
@@ -346,61 +351,65 @@ page[size="A3"][layout="landscape"] {
      border-left: 0;
      padding-left:0;
 }
+
 #subject{
     flex-basis: auto;
     flex-shrink: 0;
 }
+
 h6{
     margin-block-end: 0;
     margin-block-start: 0;
     font-weight: normal;
     font-weight: 700;
 }
+
 .align{
-    
     margin-block-end: 0;
     margin-block-start: 0;
 }
+
 .bottom-row{
-    height: 50%;
+    height: 30%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: dimgray;
 }
-.icon-container{
+
+.tools{
+    
+    justify-content: center;
+    width: 100%;
     height: 100%;
-    width: 100%;
     display: flex;
-    justify-content: center;
-    background-color: slategray;
-
+    flex-direction: column;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.project-tools{
-    height:100%;
-    width: 100%;
+
+.tool-container{
+    padding: 0.5em;
     background-color: white;
-    padding-top: 1em;
-
-}
-.project-tools .arrow{
-    padding-left: 2em;
+    margin: 0.5em;
+    width: 2.3cm;
+    height: 0.3cm;
+    font-size: 60%;
+    color: dimgray;
     display: flex;
-    background-color:steelblue;
-    flex-basis: auto;
-    flex-shrink: 0;
-    margin-block-end: 1.5em;
-    margin-block-start: 1.5em;
-    padding-left: 15px;
     justify-content: center;
-    text-align: center;
-    height: 30px;
-    color: white;
-    width: 5cm;
+    align-items: center;
+    border-radius: 5px;
 }
-.project-tools p{
-    align-self: center;
+
+.tool-container p{
+    
+align-self: center;
 }
+
 .project-detail{
     padding-left: 15px;
     width: 80px;
@@ -408,6 +417,7 @@ h6{
     color: dimgray;
     line-height: 20.5px;
 }
+
 #details{
     width: auto;
     height: 100%;
@@ -415,6 +425,7 @@ h6{
     padding-left: 1.5em;
     color: white;
 }
+
 .keywords{
     height: 100%;
     background-color: white;
@@ -424,7 +435,6 @@ h6{
     justify-content: center;
     text-align: center;
     align-items:center;
-    
 }
 
 .keyword-container{
@@ -449,7 +459,6 @@ h6{
     padding-block-start: 1em;
     font-size: 80%;
     color: white;
-    
 }
 
 
