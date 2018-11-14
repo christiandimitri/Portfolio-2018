@@ -3,7 +3,7 @@ title: pagetitle
 author:
   name: Christian Dimitri
   img:  
-  description: testing github
+  description: christian description
 projects:
 - title: Planar Quads in Architecture Free-Form Surfaces
   subtitle: Rationalization technqiues for Planar Quad meshes
@@ -77,6 +77,7 @@ projects:
   - img: img/GRIDSHELL-0706-28.jpg
   - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
     author: Andres Flajszer
+    link: http://www.andresflajszer.com/
   - img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
     author: Andres Flajszer    
     link: http://www.andresflajszer.com/
