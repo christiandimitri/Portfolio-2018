@@ -3,8 +3,9 @@ title: pagetitle
 author:
   name: Christian Dimitri
   img:  
-  description: christian description
+  description: Christian description
 projects:
+
 - title: Planar Quads in Architecture Free-Form Surfaces
   subtitle: "Architecture geometry: Rationalization technqiues for Planar Quad meshes"
   description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
@@ -19,10 +20,9 @@ projects:
   - pandoc/latex
   - illustrator
   - photoshop
-
-  category: Masters thesis
+  category: Parametric design in architecture masters thesis
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
-  location: Barcelona
+  location: Barcelona - Spain
   supervisor: Enrique Soriano
   index-img: img/BenchmarkPQMesh@10x.jpg
   big-images:
@@ -47,7 +47,7 @@ projects:
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
   author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
   date: July 2018
-  project-location: Barcelona
+  project-location: Barcelona - Spain
   area: 28.3 cm$^2$
   tools: 
   - rhino3d
@@ -61,7 +61,7 @@ projects:
   category: Case study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
-  location: Barcelona
+  location: Barcelona - Spain
   index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
   big-images:
   - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
@@ -99,13 +99,11 @@ projects:
   - InDesign
   - illustrator
   - photoshop
-
   category: Case study
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
   index-img: img/Waitomo.jpg
-  location: Barcelona
-
+  location: Barcelona - Spain
   big-images:
   - img: img/WaitomoCoverimg@10x.jpg
   - img: img/WaitomoAxo.jpg
@@ -136,13 +134,11 @@ projects:
   - python
   - VS
   - Csharp
-
   category: Data acquisition and visualisation
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: Gerard Bertomeu
   index-img: img/.jpg
-  location: Barcelona
-
+  location: Barcelona - Spain
   big-images:
   - img: img/.jpg
   small-images:
@@ -161,7 +157,7 @@ projects:
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
   description: "This section covers a variety of algorithm I scripted."
-  author: "Christian Dimitri, Alan Rynne."
+  author: "Christian Dimitri"
   date: April 2018
   tools: 
   - rhino3d
@@ -173,7 +169,7 @@ projects:
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
   index-img: img/growth.gif
-  location: Barcelona
+  location: Barcelona - Spain
   big-images:
   - img: img/
   - img: img/growth.gif
@@ -185,84 +181,20 @@ projects:
   - dendrogram
   - fractal tree
 
-  subtitle: Visualizing building energy efficiency over time
-  description: "."
-  author: "Christian Dimitri"
-  date: April 2018
-  project-location: Spain
-  tools: 
-  - rhino3d
-  - grasshopper3d
-  - python
-  - VS
-  - Csharp
-  category: Data acquisition and visualisation
-  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
-  supervisor: Gerard Bertomeu
-  index-img: img/.jpg
-  location: Barcelona
-  big-images:
-  - img: img/.jpg
-  small-images:
-  - img: 
-  - img: 
-  keywords:
-  - planning & landscape
-  - data acquisition
-  - public space
-  - earthworks
-  - cavities
-  - drainage design
-  - paths
-  - slopes
-
-  subtitle: 
-  description: "This section covers a variety of algorithm I scripted."
+- title: "Dendrogram, Musmeci Bridge: Structure Design Algorithmic Strategy"
+  subtitle: Structure design and optimization using Karamba3D
+  description: "XXXXXXXXXXXXXXXXXX."
   author: "Christian Dimitri"
   date: April 2018
   tools: 
   - rhino3d
   - grasshopper3d
-  - python
-  - VS
-  - Csharp
-  
-  category: Programming
-  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
-  supervisor: David Andres, Enrique Soriano, Ramon Sastre
-  index-img: img/growth.gif
-  location: Barcelona
-  big-images:
-  - img: img/
-  - img: img/growth.gif
-  small-images:
-  - img: img/Dendrogram.jpg  
-  - img: img/FractalTree.jpg
-  keywords:
-  - natural growth
-  - dendrogram
-  - fractal tree
-  - algorithms
-  - scripting
-  - coding
-  - custom component
-
-- title: Building Information
-  subtitle: Structure design and optimization
-  description: "This section covers a variety of algorithm I scripted."
-  author: "Christian Dimitri."
-  date: April 2018
-  tools: 
-  - rhino3d
-  - grasshopper3d
-  - python
-  - VS
-  - Csharp
+  - Karamba3D
   category: Building information
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
   index-img: img/.gif
-  location: Barcelona
+  location: Barcelona - Spain
   big-images:
   - img: img/
   - img: img/.gif
@@ -273,5 +205,42 @@ projects:
   - 
   - 
   - 
+
+- title: "Fouad Chehab Stadium: Community Sports Hub"
+  subtitle: From a municipal stadium to a sports hub
+  description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 21 432 m$^2$
+  date: June 2016
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture masters thesis
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Abdel Halim Jabr
+  index-img: img/PFSkyview.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/PFSkyview.jpg
+  - img: img/MassPlan.jpg
+  small-images:
+  # - img: img/PFaxocroped.jpg
+  - img: img/SectionBBCCfinal.jpg  
+  - img: img/SouthRoadperspective.jpg
+  - img: img/TalusVuStadecopyCroped.jpg
+  keywords:
+  - urban design
+  - public domain
+  - sports hub
+  - municipal stadium
+  - public spaces
+  - humanitize the land
+  - city cycling path
+  - green roof
+
+
 ---
 
