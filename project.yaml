@@ -121,6 +121,73 @@ projects:
   - system optimization
   - geometric adaptation
 
+- title: "Digital Fabrication 2D Machining: Planar Quad Stripes"
+  subtitle: Dupin cyclide rationalization
+  description: "Polygonal meshes are important representations with a large number of applications in geometric modelling, computer graphics, mechanical engineering, simulation, architecture etc. Such representation are based on the idea of cell decomposition: a complex object is represented with an assembly of simple polygonal cells. In this survey we are going to discuss the background information of different techniques and algorithms mentioned in the literature for a quadrilateral remeshing. Thus, we will apply those techniques on a free-form surface called Dupin Cyclide. Therefore, we will introduce the process behind this paper showing different techniques in order to remesh a free-form surface while respecting it's semi-regularity that defines it's type. This phase consits of different ways to build a coarse mesh with a regular valence 4 on it's vertex, but with a variant number of singularities such as there placement on the mesh. Then we will optimize those meshes to fit them on the Dupin Cyclide. We will planazrize the panels, reduce the henge effect on each of them, and finally analyse and compare the ouputs in order the select the optimal mesh fitting the PQ meshes requirements. After Outputing, the 2D nets have been generated and cutted using a 2D KNK machine then built on a small scale."
+  author: "Christian Dimitri, Jatziri Rodriguez, Uri Lewis"
+  project-location: Barcelona - Lebanon
+  date: February 2018
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - illustrator
+  - photoshop
+  - inDesign
+  category: Architecture geometry
+  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  index-img: img/DupinMockup.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/DupinMockup.jpg
+  - img: img/DupinNesting.jpg
+  small-images:
+  - img: img/DupinCoarse.jpg 
+  - img: img/DupinPullToMesh.jpg 
+  - img: img/DupinAnalized.jpg
+  - img: img/DupinOptimized.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+- title: "Digital Fabrication 3D Machining: Kachigata"
+  subtitle: 
+  description: ""
+  author: "Christian Dimitri"
+  project-location: Barcelona - Spain
+  date: February 2013
+  tools: 
+  - rhino3d
+  - rhinoCAM
+  - grasshopper3d
+  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC), Medio Design"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  index-img: img/DupinMockup.jpg
+  location: Barcelona - Spain
+  big-images:
+  - img: img/.jpg
+  - img: img/.jpg
+  small-images:
+  - img: img/.jpg 
+  - img: img/.jpg 
+  - img: img/.jpg
+  - img: img/.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
 - title: Parametric Design in Planning and Landscape
   subtitle: Visualizing building energy efficiency over time
   description: "."
@@ -165,13 +232,14 @@ projects:
   - python
   - VS
   - Csharp
+  - anemone
   category: Programming
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
   index-img: img/growth.gif
   location: Barcelona - Spain
   big-images:
-  - img: img/
+  - img: img/AlgorithmCode.jpg
   - img: img/growth.gif
   small-images:
   - img: img/Dendrogram.jpg  
@@ -184,8 +252,8 @@ projects:
   - fractal tree
   - growth
 
-- title: "Dendrogram, Musmeci Bridge: Structure Design Algorithmic Strategy"
-  subtitle: Structure design and optimization using Karamba3D
+- title: "Form-finding and Structure Optimization"
+  subtitle: "Dendrogram, Musmeci Bridge: Structure design and optimization using Karamba3D"
   description: "XXXXXXXXXXXXXXXXXX."
   author: "Christian Dimitri"
   date: April 2018
@@ -193,6 +261,9 @@ projects:
   - rhino3d
   - grasshopper3d
   - Karamba3D
+  - VSC
+  - Csharp
+  - anemone
   category: Building information
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
@@ -213,12 +284,117 @@ projects:
   - max displacement
   - utilization
 
+- title: "Arte Robotica:"
+  subtitle: 
+  description: ""
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/SportsOutdoor.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/.jpg
+  - img: img/.jpg
+  small-images:
+  - img: img/.jpg 
+  - img: img/.jpg 
+  - img: img/.jpg
+  - img: img/.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- title: 
+  subtitle: 
+  description: ""
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/SportsOutdoor.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/.jpg
+  - img: img/.jpg
+  small-images:
+  - img: img/.jpg 
+  - img: img/.jpg 
+  - img: img/.jpg
+  - img: img/.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+- title: 
+  subtitle: 
+  description: ""
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/SportsOutdoor.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/.jpg
+  - img: img/.jpg
+  small-images:
+  - img: img/.jpg 
+  - img: img/.jpg 
+  - img: img/.jpg
+  - img: img/.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+
 - title: "Fouad Chehab Stadium: Community Sports Hub"
   subtitle: From a municipal stadium to a sports hub
   description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
   author: "Christian Dimitri"
   project-location: Jounieh - Lebanon
-  area: 21 432 $m^2$
+  area: 30 000 $m^2$
   date: June 2016
   tools: 
   - autocad
@@ -247,74 +423,6 @@ projects:
   - humanitize the land
   - city cycling path
   - green roof
-
-- title: In between
-  subtitle: Cultural and art center
-  description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
-  author: "Christian Dimitri"
-  project-location: Batroun - Lebanon
-  area: 7 500 $m^2$
-  date: October 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/InBetweenSkyviewCropped.jpg
-  location: Kaslik, Lebanon
-  big-images:
-  - img: img/InBetweenAxo.jpg
-  - img: img/InBetweenPerspective2.jpg 
-  small-images:
-  - img: img/InBetweenSkyviewCropped.jpg
-  - img: img/InBetweenMassPlan.jpg
-  keywords:
-  - stratified cultures
-  - art & culture
-  - mediterranean
-  - old village
-  - new citie
-  - amphitheatre
-  - multi-fucunction space
-  - exhibition space
-
-- title: The Heart of the Campus
-  subtitle: Sports & health center
-  description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: October 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
-  big-images:
-  - img: img/SportsOutdoorCropped.jpg
-  - img: img/SportsAxonometrie.jpg
-  small-images:
-  - img: img/.jpg
-  - img: img/.jpg
-  - img: img/.jpg
-  - img: img/SportsInterior.jpg  
-  keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
 
 - title: LRCEMS
   subtitle: Lebanese red cross new center
@@ -347,5 +455,109 @@ projects:
   - 
   - 
   - 
+
+- title: In between
+  subtitle: Cultural and art center
+  description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
+  author: "Christian Dimitri"
+  project-location: Batroun - Lebanon
+  area: 7 500 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/InBetweenSkyviewCropped.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/InBetweenAxo.jpg
+  - img: img/InBetweenPerspective2.jpg 
+  small-images:
+  - img: img/InBetweenSkyviewCropped.jpg
+  - img: img/InBetweenSection.jpg
+  keywords:
+  - stratified cultures
+  - art & culture
+  - mediterranean
+  - old village
+  - new citie
+  - amphitheatre
+  - multi-fucunction space
+  - exhibition space
+
+- title: The Heart of the Campus
+  subtitle: Sports & health center
+  description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: May 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/SportsOutdoor.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/SportsOutdoorCropped.jpg
+  - img: img/SportsAxonometrie.jpg
+  small-images:
+  - img: img/SportsInterior.jpg 
+  - img: img/SportsDiagram.jpg 
+  - img: img/SportsElevation1.jpg
+  - img: img/SportsElevation2.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+- title: 
+  subtitle: 
+  description: ""
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/SportsOutdoor.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/.jpg
+  - img: img/.jpg
+  small-images:
+  - img: img/.jpg 
+  - img: img/.jpg 
+  - img: img/.jpg
+  - img: img/.jpg
+  keywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
 ---
 
