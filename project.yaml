@@ -266,12 +266,11 @@ projects:
   index-img: img/InBetweenSkyviewCropped.jpg
   location: Kaslik, Lebanon
   big-images:
-  - img: img/InBetweenSkyviewCropped.jpg
+  - img: img/InBetweenAxo.jpg
+  - img: img/InBetweenPerspective2.jpg 
   small-images:
-  - img: img/InBetweenAxoCropped.jpg 
-  - img: img/.jpg
-  - img: img/.jpg 
-  - img: img/InBetweenPerspective2.jpg
+  - img: img/InBetweenSkyviewCropped.jpg
+  - img: img/InBetweenMassPlan.jpg
   keywords:
   - stratified cultures
   - art & culture
@@ -319,11 +318,11 @@ projects:
 
 - title: LRCEMS
   subtitle: Lebanese red cross new center
-  description: "XXXXXXXXXXXXXXXXXXXXXXXxx."
+  description: "In the occasion."
   author: "Christian Dimitri"
   project-location: Sahel Alma - Lebanon
   area: 7 500 $m^2$
-  date: XXXXXX
+  date: June 2014
   tools: 
   - autocad
   - 3Dsmax
