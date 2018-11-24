@@ -221,10 +221,9 @@ page[size="A3"][layout="landscape"] {
 
 .row-two p{
     padding-left: 30px;
-    padding-right: 30px;
-
-    
+    padding-right: 10px;  
 }
+
 .row-two .column-left{
     text-align: justify;
     word-break: break-all;
@@ -415,7 +414,7 @@ align-self: center;
 
 .project-detail{
     padding-left: 15px;
-    width: 80px;
+    width: 100px;
     height: 30px;
     color: dimgray;
     line-height: 25px;

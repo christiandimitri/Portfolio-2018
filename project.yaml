@@ -14,6 +14,9 @@ projects:
   tools: 
   - rhino3d
   - grasshopper3d
+  - capybara/dodo
+  - millipede
+  - kangaroo2
   - VSC
   - Csharp
   - python
@@ -157,8 +160,8 @@ projects:
   - 
 
 - title: "Digital Fabrication 3D Machining: Kachigata"
-  subtitle: 
-  description: ""
+  subtitle: Experimenting tool-paths and tool-tips
+  description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
   author: "Christian Dimitri"
   project-location: Barcelona - Spain
   date: February 2013
@@ -166,18 +169,18 @@ projects:
   - rhino3d
   - rhinoCAM
   - grasshopper3d
-  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC), Medio Design"
+  category: Digital fabrication
+  firm: "MPDA 18, Medio Design"
   supervisor: Enrique Soriano, Gerard Bertomeu
-  index-img: img/DupinMockup.jpg
+  index-img: img/Kachigata1.jpg
   location: Barcelona - Spain
   big-images:
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/Kachigata1.jpg
   small-images:
-  - img: img/.jpg 
-  - img: img/.jpg 
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/Kachigata3.jpg 
+  - img: img/Kachigata4.jpg 
+  - img: img/Kachigata5.jpg
+  - img: img/Kachigata6.jpg
   keywords:
   - 
   - 
@@ -188,38 +191,38 @@ projects:
   - 
   - 
 
-- title: Parametric Design in Planning and Landscape
-  subtitle: Visualizing building energy efficiency over time
-  description: "."
-  author: "Christian Dimitri"
-  date: April 2018
-  project-location: Vacarisses - Spain
-  area: 20 000 $m^2$
-  tools: 
-  - rhino3d
-  - grasshopper3d
-  - python
-  - VS
-  - Csharp
-  category: Data acquisition and visualisation
-  firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
-  supervisor: Gerard Bertomeu
-  index-img: img/.jpg
-  location: Barcelona - Spain
-  big-images:
-  - img: img/.jpg
-  small-images:
-  - img: 
-  - img: 
-  keywords:
-  - planning & landscape
-  - data acquisition
-  - public space
-  - earthworks
-  - cavities
-  - drainage design
-  - paths
-  - slopes
+# - title: Parametric Design in Planning and Landscape
+#   subtitle: Visualizing building energy efficiency over time
+#   description: "."
+#   author: "Christian Dimitri"
+#   date: April 2018
+#   project-location: Vacarisses - Spain
+#   area: 20 000 $m^2$
+#   tools: 
+#   - rhino3d
+#   - grasshopper3d
+#   - python
+#   - VS
+#   - Csharp
+#   category: Data acquisition and visualisation
+#   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
+#   supervisor: Gerard Bertomeu
+#   index-img: img/.jpg
+#   location: Barcelona - Spain
+#   big-images:
+#   - img: img/.jpg
+#   small-images:
+#   - img: 
+#   - img: 
+#   keywords:
+#   - planning & landscape
+#   - data acquisition
+#   - public space
+#   - earthworks
+#   - cavities
+#   - drainage design
+#   - paths
+#   - slopes
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
@@ -253,8 +256,8 @@ projects:
   - growth
 
 - title: "Form-finding and Structure Optimization"
-  subtitle: "Dendrogram, Musmeci Bridge: Structure design and optimization using Karamba3D"
-  description: "XXXXXXXXXXXXXXXXXX."
+  subtitle: "Structure design using grasshopper3d and optimization using Karamba3D"
+  description: "This section will show a set of form-finding algorithms. Thus some algorithms such as the dendrogram is applied on a task to carry a platform of a uniform load of 150kg/cm2. After this step the curves have been assigned as supports in the Karamba assembly mode. Therefore a set of thicknesses has been optimized using an Evolutionary engine in order to have an acceptable discpalcement. On another hand, a set of forms have been found using the dynamic relaxation techniques generated using kangaroo2, after that the stress lines and utilization are computed using karamba3D assembly mode."
   author: "Christian Dimitri"
   date: April 2018
   tools: 
@@ -266,17 +269,21 @@ projects:
   - anemone
   category: Building information
   firm: "MPDA 18 – Vallés School of Architecture (ETSAV) – Universitat Politècnica de Catalunya (UPC)"
-  supervisor: David Andres, Enrique Soriano, Ramon Sastre
-  index-img: img/.gif
+  supervisor: Enrique Soriano, Pep Tornabell, Gerard Bertomeu
+  index-img: img/Jukbuin.jpg
   location: Barcelona - Spain
   big-images:
-  - img: img/
-  - img: img/.gif
+  - img: img/MusmeciElevation.jpg
+  - img: img/Jukbuin.jpg
   small-images:
-  - img: img/.jpg  
-  - img: img/.jpg
+  - img: img/KarambaMin0.13thickness.jpg  
+  - img: img/KarambaDef2.jpg
+  - img: img/Musmeci1.jpg
+  - img: img/Musmeci4.jpg
+
   keywords:
   - form-finding
+  - lightweight structure
   - complex structures
   - algorithm in construction
   - structure optimization
@@ -284,65 +291,33 @@ projects:
   - max displacement
   - utilization
 
-- title: "Arte Robotica:"
-  subtitle: 
-  description: ""
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: October 2013
+- title: "ARTE ROBOTICA V.01: Insection"
+  subtitle: Computational robotic painting workshop
+  description: "Insection is a visual representation of the method which an image could be distorted by the sound. The way a subject is perceived, it is isolated by itself. The aim of the attempt is to produce a final piece of work which should be generated by an image and a sound and moreover it should be a collaboration between gerative design and unexpectedness of the robot's work. This aspect or randomizing the final result gives the possibility of unlimited solutions and interpretations. Initially an image of an insect has been chosen and it was associated with the sound of the source. The image and the sound are working together in order to complete the perception of the idea about the insect. Insection is an attempt of visualizing the interaction between these three objective qualities of the subject: word, image and sound. The image of the insect is inserted into the software and translated into the language of the linear graphic which makes the interaction between an image and the graphic of the sound wave possible. Afterwards the sound wave and the linear image are put into superposition in order to observe the interaction between the two. The sound wave is glitching the linear image metamorphosing it into something new which cannot be related neither to the sound wave nor to the image."
+  author: "Christian Dimitri, Madeleine Dimitrova, Ben Tay"
+  project-location: WoMa Paris - France
+  date: October 2017
   tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
+  - rhino3D
+  - grasshopper3d
+  - anemone
+  - Taco ABB
+  - Illustrator
   - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
+  - inDesign
+  category: Workshop
+  firm: "DesignMorphine, IAAC"
+  supervisor: Lidia Ratoi, Kunaljit Chadha
+  index-img: img/ArteRoboticaCertificate-100.jpg
+  location: Sofia - Bulgaria, Barcelona - Spain
   big-images:
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/ArteRoboticaCertificate-100.jpg
+  - img: img/DesignMorphoneOutput.jpg
   small-images:
-  - img: img/.jpg 
-  - img: img/.jpg 
-  - img: img/.jpg
-  - img: img/.jpg
-  keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-- title: 
-  subtitle: 
-  description: ""
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: October 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
-  big-images:
-  - img: img/.jpg
-  - img: img/.jpg
-  small-images:
-  - img: img/.jpg 
-  - img: img/.jpg 
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/Insection2.jpg 
+  - img: img/Insection1.jpg 
+  - img: img/Insection3.jpg
+  - img: img/Insection4.jpg
   keywords:
   - 
   - 
@@ -353,40 +328,75 @@ projects:
   - 
   - 
 
-- title: 
-  subtitle: 
-  description: ""
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: October 2013
+
+- title: Building-Reality.com
+  subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
+  description: "Collaborating with the software developers and the founders of the french startup that offers prototype services of buildings and renovating real estate through virtual reality experience. The essential element of our product is the ability to experience the future, to be immersed in it. Indeed, it provides the answer to a real client need. In today’s current market, with the existing software, it is impossible to move around inside your building project as you make enhancements or adjustments. However, with the new Reality Building software, this attractive idea becomes a reality. "
+  author: "Fabio Curia, Paul Berger, Julia Merpillat, Axel Imerdis, Nicolas Laurent, Christian Dimitri, Lea Monnot"
+  date: January 2018
   tools: 
-  - autocad
+  - VS
+  - Csharp
+  - unity3D
   - 3Dsmax
   - Vray
+  - illustrator
   - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
+  category: Start-up
+  firm: Building Reality
+  co-founder: Fabio Curia, Paul Berger
+  index-img: img/BldgRealityModification.jpg
+  location: Villneuve-Loubet, France
   big-images:
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/BldgRealityModification2.jpg 
   small-images:
-  - img: img/.jpg 
-  - img: img/.jpg 
-  - img: img/.jpg
-  - img: img/.jpg
+  - img: img/BldgRealityScale.jpg
+  - img: img/Séjour.jpg
+  - img: img/MorpheusCup.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - virtual experience
+  - realtime render
+  - real estate
+  - flexible service
+  - self modification
+  - materials & furniture
+  - immersive technology
+  - innovative services
+
+# - title: 
+#   subtitle: 
+#   description: ""
+#   author: "Christian Dimitri"
+#   project-location: Jounieh - Lebanon
+#   area: 25 000 $m^2$
+#   date: October 2013
+#   tools: 
+#   - autocad
+#   - 3Dsmax
+#   - Vray
+#   - photoshop
+#   category: Architecture design studio V
+#   firm: "Holy Spirit University of Kaslik (USEK)"
+#   supervisor: Fouad Gabriel
+#   index-img: img/SportsOutdoor.jpg
+#   location: Kaslik, Lebanon
+#   big-images:
+#   - img: img/.jpg
+#   - img: img/.jpg
+#   small-images:
+#   - img: img/.jpg 
+#   - img: img/.jpg 
+#   - img: img/.jpg
+#   - img: img/.jpg
+#   keywords:
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
 
 
 - title: "Fouad Chehab Stadium: Community Sports Hub"
@@ -524,40 +534,40 @@ projects:
   - 
   - 
 
-- title: 
-  subtitle: 
-  description: ""
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: October 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
-  big-images:
-  - img: img/.jpg
-  - img: img/.jpg
-  small-images:
-  - img: img/.jpg 
-  - img: img/.jpg 
-  - img: img/.jpg
-  - img: img/.jpg
-  keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+# - title: 
+#   subtitle: 
+#   description: ""
+#   author: "Christian Dimitri"
+#   project-location: Jounieh - Lebanon
+#   area: 25 000 $m^2$
+#   date: October 2013
+#   tools: 
+#   - autocad
+#   - 3Dsmax
+#   - Vray
+#   - photoshop
+#   category: Architecture design studio V
+#   firm: "Holy Spirit University of Kaslik (USEK)"
+#   supervisor: Fouad Gabriel
+#   index-img: img/SportsOutdoor.jpg
+#   location: Kaslik, Lebanon
+#   big-images:
+#   - img: img/.jpg
+#   - img: img/.jpg
+#   small-images:
+#   - img: img/.jpg 
+#   - img: img/.jpg 
+#   - img: img/.jpg
+#   - img: img/.jpg
+#   keywords:
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
+#   - 
 
 ---
 
