@@ -95,7 +95,7 @@ projects:
   author: "Christian Dimitri, Sebastian Sánchez, Orlando Torricos Rachid Naboulsiv"
   date: February 2018
   project-location: New Zealand
-  area: 1 846 $m^2$
+  area: 1846 $m^2$
   tools: 
   - rhino3d
   - grasshopper3d
@@ -133,6 +133,7 @@ projects:
   tools: 
   - rhino3d
   - grasshopper3d
+  - 3Dsmax
   - illustrator
   - photoshop
   - inDesign
@@ -150,18 +151,18 @@ projects:
   - img: img/DupinAnalized.jpg
   - img: img/DupinOptimized.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - dupin cyclide
+  - planar quad stripes
+  - aspect ratio
+  - anisotropic remeshing
+  - top down approach
+  - digital fabrication
+  - rationalisation
+  - 2D machining
 
 - title: "Digital Fabrication 3D Machining: Kachigata"
   subtitle: Experimenting tool-paths and tool-tips
-  description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
+  description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface and generating a mesh following these streamlines. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
   author: "Christian Dimitri"
   project-location: Barcelona - Spain
   date: February 2013
@@ -182,51 +183,51 @@ projects:
   - img: img/Kachigata5.jpg
   - img: img/Kachigata6.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - kachigata
+  - CNC machining
+  - digital fabrication
+  - vector field
+  - streamlines
+  - 3D art
+  - sculpting art
+  - toolpath experimenting
 
-- title: Parametric Design in Planning and Landscape
-  subtitle: Visualizing building energy efficiency over time
-  description: "."
-  author: "Christian Dimitri"
-  date: April 2018
-  project-location: Spain
-  area: 20 000 $m^2$
-  tools: 
-  - rhino3d
-  - grasshopper3d
-  - python
-  - VS
-  - Csharp
-  category: Data acquisition and visualisation
-  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-  supervisor: Gerard Bertomeu
-  index-img: img/.jpg
-  location: Barcelona - Spain
-  big-images:
-  - img: img/.jpg
-  small-images:
-  - img: 
-  - img: 
-  keywords:
-  - planning & landscape
-  - data acquisition
-  - public space
-  - earthworks
-  - cavities
-  - drainage design
-  - paths
-  - slopes
+# - title: Parametric Design in Planning and Landscape
+#   subtitle: Visualizing building energy efficiency over time
+#   description: "."
+#   author: "Christian Dimitri"
+#   date: April 2018
+#   project-location: Spain
+#   area: 20 000 $m^2$
+#   tools: 
+#   - rhino3d
+#   - grasshopper3d
+#   - python
+#   - VS
+#   - Csharp
+#   category: Data acquisition and visualisation
+#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+#   supervisor: Gerard Bertomeu
+#   index-img: img/.jpg
+#   location: Barcelona - Spain
+#   big-images:
+#   - img: img/.jpg
+#   small-images:
+#   - img: 
+#   - img: 
+#   keywords:
+#   - planning & landscape
+#   - data acquisition
+#   - public space
+#   - earthworks
+#   - cavities
+#   - drainage design
+#   - paths
+#   - slopes
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
-  description: "This section covers a variety of algorithm I scripted."
+  description: "This section covers a variety of algorithm I scripted. In the occasion of learning programing and algorithms in technology made my obsession in programing grow more. I have been always optimistic about the implementation of the maths in architecture and technology. Since the future hides a lot of secrets rekated to computer and science, I have decided to developp my scripting skills in order to implement then in architecture and design for construction."
   author: "Christian Dimitri"
   date: April 2018
   tools: 
@@ -236,7 +237,7 @@ projects:
   - VS
   - Csharp
   - anemone
-  category: Programming
+  category: Programing
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
   index-img: img/growth.gif
@@ -248,7 +249,7 @@ projects:
   - img: img/Dendrogram.jpg  
   - img: img/FractalTree.jpg
   keywords:
-  - naturre
+  - nature
   - algorithms
   - scriting
   - dendrogram
@@ -257,13 +258,15 @@ projects:
 
 - title: "Form-finding and Structure Optimization"
   subtitle: "Structure design using grasshopper3d and optimization using Karamba3D"
-  description: "This section will show a set of form-finding algorithms. Thus some algorithms such as the dendrogram is applied on a task to carry a platform of a uniform load of 150kg/cm2. After this step the curves have been assigned as supports in the Karamba assembly mode. Therefore a set of thicknesses has been optimized using an Evolutionary engine in order to have an acceptable discpalcement. On another hand, a set of forms have been found using the dynamic relaxation techniques generated using kangaroo2, after that the stress lines and utilization are computed using karamba3D assembly mode."
+  description: "This section will show a set of form-finding algorithms. Thus some algorithms such as the dendrogram is applied on a task to carry a platform of a uniform load of 150kg/cm2. After this step the curves have been assigned as supports in the Karamba assembly mode. Therefore a set of thicknesses has been optimized using an Evolutionary system engine in order to have an acceptable discpalcement. On another hand, a set of forms have been found using the dynamic relaxation techniques generated using kangaroo2 (musmeci bridge of Arthuro Tedeschi, gridshells, etc...) , after that the stress lines and utilization are computed using karamba3D assembly mode."
   author: "Christian Dimitri"
   date: April 2018
   tools: 
   - rhino3d
   - grasshopper3d
-  - Karamba3D
+  - kangaroo2
+  - kangaroo engineering
+  - karamba3D
   - VSC
   - Csharp
   - anemone
@@ -280,7 +283,6 @@ projects:
   - img: img/KarambaDef2.jpg
   - img: img/Musmeci1.jpg
   - img: img/Musmeci4.jpg
-
   keywords:
   - form-finding
   - lightweight structure
@@ -301,8 +303,8 @@ projects:
   - rhino3D
   - grasshopper3d
   - anemone
-  - Taco ABB
-  - Illustrator
+  - taco ABB
+  - illustrator
   - photoshop
   - inDesign
   category: Workshop
@@ -319,20 +321,18 @@ projects:
   - img: img/Insection3.jpg
   - img: img/Insection4.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-
+  - computational design
+  - digital art
+  - dadaist concepts
+  - ABB robot arm
+  - customized tooltip
+  - insection concept
 
 - title: Building-Reality.com
   subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
   description: "Collaborating with the software developers and the founders of the french startup that offers prototype services of buildings and renovating real estate through virtual reality experience. The essential element of our product is the ability to experience the future, to be immersed in it. Indeed, it provides the answer to a real client need. In today’s current market, with the existing software, it is impossible to move around inside your building project as you make enhancements or adjustments. However, with the new Reality Building software, this attractive idea becomes a reality. "
   author: "Fabio Curia, Paul Berger, Julia Merpillat, Axel Imerdis, Nicolas Laurent, Christian Dimitri, Lea Monnot"
+  project-location: Nice - France
   date: January 2018
   tools: 
   - VS
@@ -346,7 +346,7 @@ projects:
   firm: Building Reality
   co-founder: Fabio Curia, Paul Berger
   index-img: img/BldgRealityModification.jpg
-  location: Villneuve-Loubet, France
+  location: Villneuve-Loubet - France
   big-images:
   - img: img/BldgRealityModification2.jpg 
   small-images:
@@ -363,42 +363,6 @@ projects:
   - immersive technology
   - innovative services
 
-# - title: 
-#   subtitle: 
-#   description: ""
-#   author: "Christian Dimitri"
-#   project-location: Jounieh - Lebanon
-#   area: 25 000 $m^2$
-#   date: October 2013
-#   tools: 
-#   - autocad
-#   - 3Dsmax
-#   - Vray
-#   - photoshop
-#   category: Architecture design studio V
-#   firm: "Holy Spirit University of Kaslik (USEK)"
-#   supervisor: Fouad Gabriel
-#   index-img: img/SportsOutdoor.jpg
-#   location: Kaslik, Lebanon
-#   big-images:
-#   - img: img/.jpg
-#   - img: img/.jpg
-#   small-images:
-#   - img: img/.jpg 
-#   - img: img/.jpg 
-#   - img: img/.jpg
-#   - img: img/.jpg
-#   keywords:
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-
-
 - title: "Fouad Chehab Stadium: Community Sports Hub"
   subtitle: From a municipal stadium to a sports hub
   description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
@@ -411,11 +375,12 @@ projects:
   - 3Dsmax
   - Vray
   - photoshop
+  - autodesk 123D
   category: Architecture masters thesis
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Abdel Halim Jabr
   index-img: img/PFSkyview.jpg
-  location: Kaslik, Lebanon
+  location: Kaslik - Lebanon
   big-images:
   - img: img/PFSkyview.jpg
   - img: img/MassPlan.jpg
@@ -450,7 +415,7 @@ projects:
   firm: "BlankWorkshop"
   supervisor: Anthonios Rizk, Georges Nicolas
   index-img: img/LRC.jpg
-  location: Sarba, Lebanon
+  location: Sarba - Lebanon
   big-images:
   - img: img/LRC.jpg
   - img: img/LRC1.jpg
@@ -458,13 +423,10 @@ projects:
   - img: img/LRC2.jpg
   - img: img/LRC3.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - box morphing
+  - red cross
+  - facade design
+  - conceptual design
 
 - title: In between
   subtitle: Cultural and art center
@@ -482,7 +444,7 @@ projects:
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Fouad Gabriel
   index-img: img/InBetweenSkyviewCropped.jpg
-  location: Kaslik, Lebanon
+  location: Kaslik - Lebanon
   big-images:
   - img: img/InBetweenAxo.jpg
   - img: img/InBetweenPerspective2.jpg 
@@ -515,7 +477,7 @@ projects:
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Fouad Gabriel
   index-img: img/SportsOutdoor.jpg
-  location: Kaslik, Lebanon
+  location: Kaslik - Lebanon
   big-images:
   - img: img/SportsOutdoorCropped.jpg
   - img: img/SportsAxonometrie.jpg
@@ -525,49 +487,15 @@ projects:
   - img: img/SportsElevation1.jpg
   - img: img/SportsElevation2.jpg
   keywords:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - tensile membrane
+  - atrium
+  - pedestrian passages
+  - sports community
+  - youth center
+  - health center
+  - parametric facade
+  - box morphing
 
-# - title: 
-#   subtitle: 
-#   description: ""
-#   author: "Christian Dimitri"
-#   project-location: Jounieh - Lebanon
-#   area: 25 000 $m^2$
-#   date: October 2013
-#   tools: 
-#   - autocad
-#   - 3Dsmax
-#   - Vray
-#   - photoshop
-#   category: Architecture design studio V
-#   firm: "Holy Spirit University of Kaslik (USEK)"
-#   supervisor: Fouad Gabriel
-#   index-img: img/SportsOutdoor.jpg
-#   location: Kaslik, Lebanon
-#   big-images:
-#   - img: img/.jpg
-#   - img: img/.jpg
-#   small-images:
-#   - img: img/.jpg 
-#   - img: img/.jpg 
-#   - img: img/.jpg
-#   - img: img/.jpg
-#   keywords:
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
-#   - 
 
 ---
 
