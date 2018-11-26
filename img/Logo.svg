@@ -11,7 +11,7 @@
       }
 
       .cls-3 {
-        fill: #4682b4;
+        fill: #fff;
       }
     </style>
   </defs>
@@ -38,9 +38,9 @@
       </g>
       <g>
         <g class="cls-2">
-          <circle cx="404.71776" cy="229.00011" r="24.81236" transform="translate(-33.67827 384.06924) rotate(-48.98201)"/>
+          <circle cx="404.71776" cy="229.00011" r="24.81236" transform="matrix(0.6563, -0.7545, 0.7545, 0.6563, -33.67827, 384.06924)"/>
         </g>
-        <circle class="cls-3" cx="402.71776" cy="225.00011" r="24.81236" transform="translate(-31.34767 381.18542) rotate(-48.98201)"/>
+        <circle class="cls-3" cx="402.71776" cy="225.00011" r="24.81236" transform="matrix(0.6563, -0.7545, 0.7545, 0.6563, -31.34767, 381.18542)"/>
       </g>
       <g>
         <g class="cls-2">

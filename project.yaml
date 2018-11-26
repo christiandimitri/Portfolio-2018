@@ -72,7 +72,7 @@ projects:
     link: http://www.andresflajszer.com/
   - img: img/botellas-centro.gif
   small-images:
-  - img: img/GRIDSHELL-0706-28.jpg
+  - img: img/LoadCase.jpg
   - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
     author: Andres Flajszer
     link: http://www.andresflajszer.com/
@@ -227,7 +227,7 @@ projects:
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
-  description: "This section covers a variety of algorithm I scripted. In the occasion of learning programing and algorithms in technology made my obsession in programing grow more. I have been always optimistic about the implementation of the maths in architecture and technology. Since the future hides a lot of secrets rekated to computer and science, I have decided to developp my scripting skills in order to implement then in architecture and design for construction."
+  description: "This section covers a variety of algorithms I scripted. In the occasion of learning programing and algorithms in technology made my obsession in programing grow more. I have been always optimistic about the implementation of the maths in architecture and technology. Since the future hides a lot of secrets rekated to computer and science, I have decided to developp my scripting skills in order to implement them in architecture and design for construction."
   author: "Christian Dimitri"
   date: April 2018
   tools: 
