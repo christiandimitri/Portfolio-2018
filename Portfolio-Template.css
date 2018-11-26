@@ -471,6 +471,93 @@ h6{
     height: 100%;
 }
 
+.visit{
+    display: flex;
+    flex-direction: row;
+}
+
+.website{
+    margin-left: 0.3em;
+    align-self: center;
+    color: steelblue;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contact{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color:steelblue;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.social{
+    margin-block-start: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 90px;
+    justify-content: center;
+}
+.social-contact{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    font-size: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 250%;
+}
+
+.author-github{
+    display: flex;
+    flex-direction: column;
+}
+.author-linkdin{
+    display: flex;
+    flex-direction: column;
+}
+.author-instagram{
+    display: flex;
+    flex-direction: column;
+}
+.author-instagram a{
+    color: white;
+    text-decoration: none;
+}
+.author-github a{
+    color: white;
+    text-decoration: none;
+}
+.author-linkdin a{
+    color: white;
+    text-decoration: none;
+}
+/* 
+.author-github::before{
+    font-family: "Font Awesome 5 Brands"; content: "\f113";
+    position: absolute;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.author-linkdin::before{
+    font-family: "Font Awesome 5 Brands"; content: "\f08c";
+    position: absolute;
+    font-weight: 50;
+} */
 
 .project-detail{
     padding-left: 15px;
@@ -488,7 +575,10 @@ h6{
     height: 250px;
     border-radius: 50%;
 }
-
+#ending-logo{
+    width: 150px;
+    height: 150px;
+}
 #details{
     width: auto;
     height: 100%;

@@ -1,3 +1,5 @@
 pandoc project.yaml --template=Portfolio-Template.html -o test.html
 magick mogrify -resize 1000x800 -format jpg img/*.png
 convert img/TalusVuStadecopy.jpg -crop 570x424+100+270 img/TalusVuStadecopyCroped.jpg
+linkedin.com/in/chrisdimitri
+github.com/christiandimitri
