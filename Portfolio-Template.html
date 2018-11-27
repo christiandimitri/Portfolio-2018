@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="row-layout">
+    <div class="row-layout break">
         <div class="white-row"></div>
         <div class="empty-row">
             <div class="column-left" id="header-gray-bar">
@@ -32,28 +32,29 @@
                 <div class="gray-bar"></div>
                 <div class="colored-bar"></div>
                 <div class="cover-description">
-                    <div class="cover-img">
-
+                    <div class="cover-img" style=" background-image: url($cover-img$)">
+                    $if(author-img)$
                         <div class="photo-credits">
                             <p>
                                 Image By
-                                <a href="http://www.andresflajszer.com/">Andres Flajszer</a>
+                                <a href="http://www.andresflajszer.com/">$author-img$</a>
                             </p>
                         </div>
+                        $endif$
                     </div>
                 </div>
             </div>
             <div class="column-right">
                 <div class="portfolio-title-container">
-                    <div class="author-logo"></div>
-                    <h1>Christian Dimitri</h1>
-                    <h2>PORTFOLIO 2018</h2>
-                    <h3>Architecture & Parametric Design</h3>
+                    <div class="author-logo" style="background-image: url($logo$)"></div>
+                    <h1>$author.name$</h1>
+                    <h2>$title$</h2>
+                    <h3>$subtitle$</h3>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row-layout">
+    <div class="row-layout break">
         <div class="white-row"></div>
         <div class="empty-row">
             <div class="column-left" id="header-gray-bar">
@@ -67,9 +68,7 @@
                 <div class="colored-bar"></div>
                 <div class="index-description">
                     <div class="author-image"></div>
-                    <p>I am Christian Dimitri, I am an optimistic Architect specialized in parametric architecture and
-                        computational design. As a self taught computational designer and 3D visualizer, I am able to
-                        say that I am familiar with the computational tools available today.</p>
+                    <p>$author.description$</p>
                 </div>
             </div>
             <div class="column-right">
@@ -85,7 +84,7 @@
         </div>
     </div>
     $for(projects)$
-    <div class="row-layout">
+    <div class="row-layout break">
         <div class="white-row">
         </div>
         <div class="empty-row">
@@ -225,7 +224,7 @@
         </div>
     </div>
     $endfor$
-    <div class="row-layout">
+    <div class="row-layout break">
         <div class="white-row"></div>
         <div class="empty-row">
             <div class="column-left" id="header-gray-bar">
@@ -238,19 +237,21 @@
                 <div class="gray-bar"></div>
                 <div class="colored-bar"></div>
                 <div class="ending-description">
-                    <div class="ending-img">
+                    <div class="ending-img" style="background-image:url($closing-img$)">
+                        $if(author-img)$
                         <div class="photo-credits">
                             <p>
                                 Image By
-                                <a href="http://www.andresflajszer.com/">Andres Flajszer</a>
+                                <a href="http://www.andresflajszer.com/">$author-img$</a>
                             </p>
                         </div>
+                        $endif$
                     </div>
                 </div>
             </div>
             <div class="column-right">
                 <div class="portfolio-title-container">
-                    <div class="author-logo" id="ending-logo"></div>
+                    <div class="author-logo" id="ending-logo" style="background-image: url($logo$)"></div>
                     <div class="visit">
                         <p>You can still visit my website</p>
                         <a href="https://chrisdimi.me" class="website">here</a>

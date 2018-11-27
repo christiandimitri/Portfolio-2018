@@ -12,13 +12,11 @@ body {
 page {
     background: white;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 0.5cm;
-    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 page[size="A3"] {
-    width: 29.7cm;
-    height: 42cm;
+    width: 42cm;
+    height: 29.7cm;
 
 }
 
@@ -29,18 +27,24 @@ page[size="A3"][layout="landscape"] {
 
 @media print {
     page {   
-    width: 29.7cm;
-    height: 42cm;
+    width: 42cm;
+    height: 29.7cm;
     margin: 0;
     box-shadow: 0;
     }
+    .row-layout{
+        page-break-after:always !important;
+    
+    }
 }
+
 .row-layout{
     display: flex;
     flex-direction: column;
     width: 42cm;
     height: 29.7cm;
     background-color: white;
+
 }
 .white-row{
     width: 100%;
@@ -418,7 +422,6 @@ h6{
 }
 
 .cover-img{
-    background-image: url(img/61-IMG_9691-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS_2.jpg);
     background-position: bottom;
     background-size: cover;
     width: 100%;
@@ -464,7 +467,6 @@ h6{
 }
 
 .ending-img{
-    background-image:url(img/59-IMG_9666-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.jpg);
     background-position: bottom;
     background-size: cover;
     width: 100%;
@@ -524,26 +526,35 @@ h6{
 .author-github{
     display: flex;
     flex-direction: column;
+
 }
+
 .author-linkdin{
     display: flex;
     flex-direction: column;
 }
+
 .author-instagram{
     display: flex;
     flex-direction: column;
 }
+
 .author-instagram a{
     color: white;
     text-decoration: none;
 }
+
 .author-github a{
     color: white;
     text-decoration: none;
 }
+
 .author-linkdin a{
     color: white;
     text-decoration: none;
+}
+
+.break{
 }
 /* 
 .author-github::before{
@@ -568,7 +579,6 @@ h6{
 }
 
 .author-logo{
-    background-image: url(img/logo.svg);
     background-position: center;
     background-size: cover;
     width: 250px;
