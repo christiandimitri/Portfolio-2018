@@ -1,34 +1,15 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: lightgray;
-    float:none;
 }
-
-page[size="A3"] {  
-  width: 42cm;
   
-  height: 29.7cm;
-}
-@media all {
-	.break	{ display: none; }
-}
-
-@media print {
-    .break { display: block; page-break-before: always; }
-    }
-
-    
 .row-layout{
     display: flex;
     flex-direction: column;
     width: 42cm;
-    height: 29.7cm;
+    height: 29.68cm;
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    page-break-after: always;
 }
 .white-row{
     width: 100%;
@@ -147,9 +128,11 @@ page[size="A3"] {
     flex-direction: row;
     position: relative;
 }
+
 #header-gray-bar{
     background-color: dimgray;
 }
+
 .gray-bar{
     height: 100%;
     width: 30px;

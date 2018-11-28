@@ -23,161 +23,161 @@ author:
   description: I am Christian Dimitri, I am an optimistic Architect specialized in parametric architecture and computational design. As a self taught computational designer and 3D visualizer, I am able to say that I am familiar with the computational tools available today.
 projects:
 
-# - title: Planar Quads in Free-Form Surfaces
-#   subtitle: "Architecture geometry: Rationalization technqiues for Planar Quad meshes"
-#   description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
-#   author: "Christian Dimitri"
-#   date: July 2018
-#   tools: 
-#   - rhino3d
-#   - grasshopper3d
-#   - capybara/dodo
-#   - millipede
-#   - kangaroo2
-#   - VSC
-#   - Csharp
-#   - python
-#   - pandoc/latex
-#   - illustrator
-#   - photoshop
-#   category: Parametric design in architecture masters thesis
-#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-#   location: Barcelona - Spain
-#   supervisor: Enrique Soriano
-#   index-img: img/BenchmarkPQMesh@10x.jpg
-#   big-images:
-#   - img: img/PositiveCurvaturePQMesh@10x.jpg
-#   - img: img/BenchmarkPQMesh@10x.jpg
-#   small-images:
-#   - img: img/Int@10x.jpg
-#   - img: img/FF@10x.jpg
-#   - img: img/PQOptimized.jpg
-#   keywords: 
-#   - free-form surfaces
-#   - planarity
-#   - rationalisation
-#   - aspect ratio
-#   - curve networks
-#   - conformal mapping
-#   - frame fields
-#   - subdivision technique
+- title: Planar Quads in Free-Form Surfaces
+  subtitle: "Architecture geometry: Rationalization technqiues for Planar Quad meshes"
+  description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
+  author: "Christian Dimitri"
+  date: July 2018
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - capybara/dodo
+  - millipede
+  - kangaroo2
+  - VSC
+  - Csharp
+  - python
+  - pandoc/latex
+  - illustrator
+  - photoshop
+  category: Parametric design in architecture masters thesis
+  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+  location: Barcelona - Spain
+  supervisor: Enrique Soriano
+  index-img: img/BenchmarkPQMesh@10x.jpg
+  big-images:
+  - img: img/PositiveCurvaturePQMesh@10x.jpg
+  - img: img/BenchmarkPQMesh@10x.jpg
+  small-images:
+  - img: img/Int@10x.jpg
+  - img: img/FF@10x.jpg
+  - img: img/PQOptimized.jpg
+  keywords: 
+  - free-form surfaces
+  - planarity
+  - rationalisation
+  - aspect ratio
+  - curve networks
+  - conformal mapping
+  - frame fields
+  - subdivision technique
 
-# # - title: "Chebyshev Net Triangular Gridshell"
-#   subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
-#   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
-#   author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
-#   date: July 2018
-#   project-location: Barcelona - Spain
-#   area: 28.3 $m^2$
-#   tools: 
-#   - rhino3d
-#   - grasshopper3d
-#   - VSC
-#   - Csharp
-#   - 3dsmax
-#   - Vray
-#   - illustrator
-#   - photoshop
-#   category: Case study
-#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-#   supervisor: Enrique Soriano, Gerard Bertomeu
-#   location: Barcelona - Spain
-#   index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-#   big-images:
-#   - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-#     author: Andres Flajszer
-#     link: http://www.andresflajszer.com/
-#   - img: img/botellas-centro.gif
-#   small-images:
-#   - img: img/LoadCase.jpg
-#   - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
-#     author: Andres Flajszer
-#     link: http://www.andresflajszer.com/
-#   - img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
-#     author: Andres Flajszer    
-#     link: http://www.andresflajszer.com/
-#   keywords: 
-#   - elastic gridshell
-#   - lightweight structure
-#   - temporary pavilion
-#   - gridshell bracing
-#   - composite materials
-#   - spherical domes
-#   - active bending
-#   - elastic membrane
-
-
-# - title: "Geodesic Gridshells: Waitomo Caves Visitor Center"
-#   subtitle: Building systems optimization
-#   description: "This research presents a case study of the Waitomo caves visitor center, explaining the different design strategies going from the form-finding and analysis till the optimization of the building system. The final step consists of adapting the same design system after collecting the information in the previous step onto a free form surface. The project is a wooden grid shell made of geodesic beam on a toroid. In order to study the project multiple 3D models where made to approximate the real project then analyzing and comparing the data between different 3D results."
-#   author: "Christian Dimitri, Sebastian Sánchez, Orlando Torricos Rachid Naboulsiv"
-#   date: February 2018
-#   project-location: New Zealand
-#   area: 1846 $m^2$
-#   tools: 
-#   - rhino3d
-#   - grasshopper3d
-#   - InDesign
-#   - illustrator
-#   - photoshop
-#   category: Case study
-#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-#   supervisor: Enrique Soriano, Gerard Bertomeu
-#   index-img: img/Waitomo.jpg
-#   location: Barcelona - Spain
-#   big-images:
-#   - img: img/WaitomoCoverimg@10x.jpg
-#   - img: img/WaitomoAxo.jpg
-#   - img: img/WaitomoDupinAdapAxo.jpg
-#   small-images:
-#   - img: img/Waitomo.jpg
-#   - img: img/AdaptedWaitomoDupin.jpg
-#   keywords:
-#   - geodesic gridshells
-#   - lightweight structure
-#   - touristic center
-#   - active bending
-#   - wood structure
-#   - etfe cuchon
-#   - system optimization
-#   - geometric adaptation
+# - title: "Chebyshev Net Triangular Gridshell"
+  subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
+  description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
+  author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
+  date: July 2018
+  project-location: Barcelona - Spain
+  area: 28.3 $m^2$
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - VSC
+  - Csharp
+  - 3dsmax
+  - Vray
+  - illustrator
+  - photoshop
+  category: Case study
+  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  location: Barcelona - Spain
+  index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  big-images:
+  - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+    author: Andres Flajszer
+    link: http://www.andresflajszer.com/
+  - img: img/botellas-centro.gif
+  small-images:
+  - img: img/LoadCase.jpg
+  - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
+    author: Andres Flajszer
+    link: http://www.andresflajszer.com/
+  - img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+    author: Andres Flajszer    
+    link: http://www.andresflajszer.com/
+  keywords: 
+  - elastic gridshell
+  - lightweight structure
+  - temporary pavilion
+  - gridshell bracing
+  - composite materials
+  - spherical domes
+  - active bending
+  - elastic membrane
 
 
-# - title: "Digital Fabrication 2D Machining: Planar Quad Stripes"
-  # subtitle: Dupin cyclide rationalization
-  # description: "Polygonal meshes are important representations with a large number of applications in geometric modelling, computer graphics, mechanical engineering, simulation, architecture etc. Such representation are based on the idea of cell decomposition: a complex object is represented with an assembly of simple polygonal cells. In this survey we are going to discuss the background information of different techniques and algorithms mentioned in the literature for a quadrilateral remeshing. Thus, we will apply those techniques on a free-form surface called Dupin Cyclide. Therefore, we will introduce the process behind this paper showing different techniques in order to remesh a free-form surface while respecting it's semi-regularity that defines it's type. This phase consits of different ways to build a coarse mesh with a regular valence 4 on it's vertex, but with a variant number of singularities such as there placement on the mesh. Then we will optimize those meshes to fit them on the Dupin Cyclide. We will planazrize the panels, reduce the henge effect on each of them, and finally analyse and compare the ouputs in order the select the optimal mesh fitting the PQ meshes requirements. After Outputing, the 2D nets have been generated and cutted using a 2D KNK machine then built on a small scale."
-  # author: "Christian Dimitri, Jatziri Rodriguez, Uri Lewis"
-  # project-location: Barcelona - Lebanon
-  # date: February 2018
-  # tools: 
-  # - rhino3d
-  # - grasshopper3d
-  # - 3Dsmax
-  # - illustrator
-  # - photoshop
-  # - inDesign
-  # category: Architecture geometry
-  # firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-  # supervisor: Enrique Soriano, Gerard Bertomeu
-  # index-img: img/DupinMockup.jpg
-  # location: Kaslik, Lebanon
-  # big-images:
-  # - img: img/DupinMockup.jpg
-  # - img: img/DupinNesting.jpg
-  # small-images:
-  # - img: img/DupinCoarse.jpg 
-  # - img: img/DupinPullToMesh.jpg 
-  # - img: img/DupinAnalized.jpg
-  # - img: img/DupinOptimized.jpg
-  # keywords:
-  # - dupin cyclide
-  # - planar quad stripes
-  # - aspect ratio
-  # - anisotropic remeshing
-  # - top down approach
-  # - digital fabrication
-  # - rationalisation
-  # - 2D machining
+- title: "Geodesic Gridshells: Waitomo Caves Visitor Center"
+  subtitle: Building systems optimization
+  description: "This research presents a case study of the Waitomo caves visitor center, explaining the different design strategies going from the form-finding and analysis till the optimization of the building system. The final step consists of adapting the same design system after collecting the information in the previous step onto a free form surface. The project is a wooden grid shell made of geodesic beam on a toroid. In order to study the project multiple 3D models where made to approximate the real project then analyzing and comparing the data between different 3D results."
+  author: "Christian Dimitri, Sebastian Sánchez, Orlando Torricos Rachid Naboulsiv"
+  date: February 2018
+  project-location: New Zealand
+  area: 1846 $m^2$
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - InDesign
+  - illustrator
+  - photoshop
+  category: Case study
+  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  index-img: img/Waitomo.jpg
+  location: Barcelona - Spain
+  big-images:
+  - img: img/WaitomoCoverimg@10x.jpg
+  - img: img/WaitomoAxo.jpg
+  - img: img/WaitomoDupinAdapAxo.jpg
+  small-images:
+  - img: img/Waitomo.jpg
+  - img: img/AdaptedWaitomoDupin.jpg
+  keywords:
+  - geodesic gridshells
+  - lightweight structure
+  - touristic center
+  - active bending
+  - wood structure
+  - etfe cuchon
+  - system optimization
+  - geometric adaptation
+
+
+- title: "Digital Fabrication 2D Machining: Planar Quad Stripes"
+  subtitle: Dupin cyclide rationalization
+  description: "Polygonal meshes are important representations with a large number of applications in geometric modelling, computer graphics, mechanical engineering, simulation, architecture etc. Such representation are based on the idea of cell decomposition: a complex object is represented with an assembly of simple polygonal cells. In this survey we are going to discuss the background information of different techniques and algorithms mentioned in the literature for a quadrilateral remeshing. Thus, we will apply those techniques on a free-form surface called Dupin Cyclide. Therefore, we will introduce the process behind this paper showing different techniques in order to remesh a free-form surface while respecting it's semi-regularity that defines it's type. This phase consits of different ways to build a coarse mesh with a regular valence 4 on it's vertex, but with a variant number of singularities such as there placement on the mesh. Then we will optimize those meshes to fit them on the Dupin Cyclide. We will planazrize the panels, reduce the henge effect on each of them, and finally analyse and compare the ouputs in order the select the optimal mesh fitting the PQ meshes requirements. After Outputing, the 2D nets have been generated and cutted using a 2D KNK machine then built on a small scale."
+  author: "Christian Dimitri, Jatziri Rodriguez, Uri Lewis"
+  project-location: Barcelona - Lebanon
+  date: February 2018
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - 3Dsmax
+  - illustrator
+  - photoshop
+  - inDesign
+  category: Architecture geometry
+  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Gerard Bertomeu
+  index-img: img/DupinMockup.jpg
+  location: Kaslik, Lebanon
+  big-images:
+  - img: img/DupinMockup.jpg
+  - img: img/DupinNesting.jpg
+  small-images:
+  - img: img/DupinCoarse.jpg 
+  - img: img/DupinPullToMesh.jpg 
+  - img: img/DupinAnalized.jpg
+  - img: img/DupinOptimized.jpg
+  keywords:
+  - dupin cyclide
+  - planar quad stripes
+  - aspect ratio
+  - anisotropic remeshing
+  - top down approach
+  - digital fabrication
+  - rationalisation
+  - 2D machining
 
 - title: "Digital Fabrication 3D Machining: Kachigata"
   subtitle: Experimenting tool-paths and tool-tips
@@ -191,7 +191,7 @@ projects:
   - grasshopper3d
   category: Digital fabrication
   firm: "MPDA 18, Medio Design"
-  supervisor: Enrique Soriano, Gerard Bertomeu
+  supervisor: Enrique Soriano, Gerard Bertomeu, Juan Pablo Quintero
   index-img: img/Kachigata1.jpg
   location: Barcelona - Spain
   big-images:
@@ -275,212 +275,211 @@ projects:
   - fractal tree
   - growth
 
-# - title: "Form-finding and Structure Optimization"
-#   subtitle: "Structure design using grasshopper3d and optimization using Karamba3D"
-#   description: "This section will show a set of form-finding algorithms. Thus some algorithms such as the dendrogram is applied on a task to carry a platform of a uniform load of 150kg/cm2. After this step the curves have been assigned as supports in the Karamba assembly mode. Therefore a set of thicknesses has been optimized using an Evolutionary system engine in order to have an acceptable discpalcement. On another hand, a set of forms have been found using the dynamic relaxation techniques generated using kangaroo2 (musmeci bridge of Arthuro Tedeschi, gridshells, etc...) , after that the stress lines and utilization are computed using karamba3D assembly mode."
-#   author: "Christian Dimitri"
-#   date: April 2018
-#   tools: 
-#   - rhino3d
-#   - grasshopper3d
-#   - kangaroo2
-#   - kangaroo engineering
-#   - karamba3D
-#   - VSC
-#   - Csharp
-#   - anemone
-#   category: Building information
-#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-#   supervisor: Enrique Soriano, Pep Tornabell, Gerard Bertomeu
-#   index-img: img/Jukbuin.jpg
-#   location: Barcelona - Spain
-#   big-images:
-#   - img: img/MusmeciElevation.jpg
-#   - img: img/Jukbuin.jpg
-#   small-images:
-#   - img: img/KarambaMin0.13thickness.jpg  
-#   - img: img/KarambaDef2.jpg
-#   - img: img/Musmeci1.jpg
-#   - img: img/Musmeci4.jpg
-#   keywords:
-#   - form-finding
-#   - lightweight structure
-#   - complex structures
-#   - algorithm in construction
-#   - structure optimization
-#   - deflection
-#   - max displacement
-#   - utilization
+- title: "Form-finding and Structure Optimization"
+  subtitle: "Structure design using grasshopper3d and optimization using Karamba3D"
+  description: "This section will show a set of form-finding algorithms. Thus some algorithms such as the dendrogram is applied on a task to carry a platform of a uniform load of 150kg/cm2. After this step the curves have been assigned as supports in the Karamba assembly mode. Therefore a set of thicknesses has been optimized using an Evolutionary system engine in order to have an acceptable discpalcement. On another hand, a set of forms have been found using the dynamic relaxation techniques generated using kangaroo2 (musmeci bridge of Arthuro Tedeschi, gridshells, etc...) , after that the stress lines and utilization are computed using karamba3D assembly mode."
+  author: "Christian Dimitri"
+  date: April 2018
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - kangaroo2
+  - kangaroo engineering
+  - karamba3D
+  - VSC
+  - Csharp
+  - anemone
+  category: Building information
+  firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
+  supervisor: Enrique Soriano, Pep Tornabell, Gerard Bertomeu
+  index-img: img/Jukbuin.jpg
+  location: Barcelona - Spain
+  big-images:
+  - img: img/MusmeciElevation.jpg
+  - img: img/Jukbuin.jpg
+  small-images:
+  - img: img/KarambaMin0.13thickness.jpg  
+  - img: img/KarambaDef2.jpg
+  - img: img/Musmeci1.jpg
+  - img: img/Musmeci4.jpg
+  keywords:
+  - form-finding
+  - lightweight structure
+  - complex structures
+  - algorithm in construction
+  - structure optimization
+  - deflection
+  - max displacement
+  - utilization
 
-# - title: "Insection"
-#   subtitle: "ARTE ROBOTICA V.01: Computational robotic painting workshop"
-#   description: "Insection is a visual representation of the method which an image could be distorted by the sound. The way a subject is perceived, it is isolated by itself. The aim of the attempt is to produce a final piece of work which should be generated by an image and a sound and moreover it should be a collaboration between gerative design and unexpectedness of the robot's work. This aspect or randomizing the final result gives the possibility of unlimited solutions and interpretations. Initially an image of an insect has been chosen and it was associated with the sound of the source. The image and the sound are working together in order to complete the perception of the idea about the insect. Insection is an attempt of visualizing the interaction between these three objective qualities of the subject: word, image and sound. The image of the insect is inserted into the software and translated into the language of the linear graphic which makes the interaction between an image and the graphic of the sound wave possible. Afterwards the sound wave and the linear image are put into superposition in order to observe the interaction between the two. The sound wave is glitching the linear image metamorphosing it into something new which cannot be related neither to the sound wave nor to the image."
-#   author: "Christian Dimitri, Madeleine Dimitrova, Ben Tay"
-#   project-location: WoMa Paris - France
-#   date: October 2017
-#   tools: 
-#   - rhino3D
-#   - grasshopper3d
-#   - anemone
-#   - taco ABB
-#   - illustrator
-#   - photoshop
-#   - inDesign
-#   category: Workshop
-#   firm: "DesignMorphine, IAAC"
-#   supervisor: Lidia Ratoi, Kunaljit Chadha
-#   index-img: img/ArteRoboticaCertificate-100.jpg
-#   location: Sofia - Bulgaria, Barcelona - Spain
-#   big-images:
-#   - img: img/ArteRoboticaCertificate-100.jpg
-#   - img: img/DesignMorphoneOutput.jpg
-#   small-images:
-#   - img: img/Insection2.jpg 
-#   - img: img/Insection1.jpg 
-#   - img: img/Insection3.jpg
-#   - img: img/Insection4.jpg
-#   keywords:
-#   - computational design
-#   - digital art
-#   - dadaist concepts
-#   - ABB robot arm
-#   - customized tooltip
-#   - insection concept
+- title: "Insection"
+  subtitle: "ARTE ROBOTICA V.01: Computational robotic painting workshop"
+  description: "Insection is a visual representation of the method which an image could be distorted by the sound. The way a subject is perceived, it is isolated by itself. The aim of the attempt is to produce a final piece of work which should be generated by an image and a sound and moreover it should be a collaboration between gerative design and unexpectedness of the robot's work. This aspect or randomizing the final result gives the possibility of unlimited solutions and interpretations. Initially an image of an insect has been chosen and it was associated with the sound of the source. The image and the sound are working together in order to complete the perception of the idea about the insect. Insection is an attempt of visualizing the interaction between these three objective qualities of the subject: word, image and sound. The image of the insect is inserted into the software and translated into the language of the linear graphic which makes the interaction between an image and the graphic of the sound wave possible. Afterwards the sound wave and the linear image are put into superposition in order to observe the interaction between the two. The sound wave is glitching the linear image metamorphosing it into something new which cannot be related neither to the sound wave nor to the image."
+  author: "Christian Dimitri, Madeleine Dimitrova, Ben Tay"
+  project-location: WoMa Paris - France
+  date: October 2017
+  tools: 
+  - rhino3D
+  - grasshopper3d
+  - anemone
+  - taco ABB
+  - illustrator
+  - photoshop
+  - inDesign
+  category: Workshop
+  firm: "DesignMorphine, IAAC"
+  supervisor: Lidia Ratoi, Kunaljit Chadha
+  index-img: img/ArteRoboticaCertificate-100.jpg
+  location: Sofia - Bulgaria, Barcelona - Spain
+  big-images:
+  - img: img/ArteRoboticaCertificate-100.jpg
+  - img: img/DesignMorphoneOutput.jpg
+  small-images:
+  - img: img/Insection2.jpg 
+  - img: img/Insection1.jpg 
+  - img: img/Insection3.jpg
+  - img: img/Insection4.jpg
+  keywords:
+  - computational design
+  - digital art
+  - dadaist concepts
+  - ABB robot arm
+  - customized tooltip
+  - insection concept
 
-# - title: Building-Reality.com
-#   subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
-#   description: "Collaborating with the software developers and the founders of the french startup that offers prototype services of buildings and renovating real estate through virtual reality experience. The essential element of our product is the ability to experience the future, to be immersed in it. Indeed, it provides the answer to a real client need. In today’s current market, with the existing software, it is impossible to move around inside your building project as you make enhancements or adjustments. However, with the new Reality Building software, this attractive idea becomes a reality. "
-#   author: "Fabio Curia, Paul Berger, Julia Merpillat, Axel Imerdis, Nicolas Laurent, Christian Dimitri, Lea Monnot"
-#   project-location: Nice - France
-#   date: January 2018
-#   tools: 
-#   - VS
-#   - Csharp
-#   - unity3D
-#   - 3Dsmax
-#   - Vray
-#   - illustrator
-#   - photoshop
-#   category: Start-up
-#   firm: Building Reality
-#   co-founder: Fabio Curia, Paul Berger
-#   index-img: img/BldgRealityModification.jpg
-#   location: Villneuve-Loubet - France
-#   big-images:
-#   - img: img/BldgRealityModification2.jpg 
-#   small-images:
-#   - img: img/BldgRealityScale.jpg
-#   - img: img/Séjour.jpg
-#   - img: img/MorpheusCup.jpg
-#   keywords:
-#   - virtual experience
-#   - realtime render
-#   - real estate
-#   - flexible service
-#   - self modification
-#   - materials & furniture
-#   - immersive technology
-#   - innovative services
+- title: Building-Reality.com
+  subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
+  description: "Collaborating with the software developers and the founders of the french startup that offers prototype services of buildings and renovating real estate through virtual reality experience. The essential element of our product is the ability to experience the future, to be immersed in it. Indeed, it provides the answer to a real client need. In today’s current market, with the existing software, it is impossible to move around inside your building project as you make enhancements or adjustments. However, with the new Reality Building software, this attractive idea becomes a reality. "
+  author: "Fabio Curia, Paul Berger, Julia Merpillat, Axel Imerdis, Nicolas Laurent, Christian Dimitri, Lea Monnot"
+  project-location: Nice - France
+  date: January 2018
+  tools: 
+  - VS
+  - Csharp
+  - unity3D
+  - 3Dsmax
+  - Vray
+  - illustrator
+  - photoshop
+  category: Start-up
+  firm: Building Reality
+  co-founder: Fabio Curia, Paul Berger
+  index-img: img/BldgRealityModification.jpg
+  location: Villneuve-Loubet - France
+  big-images:
+  - img: img/BldgRealityModification2.jpg 
+  small-images:
+  - img: img/BldgRealityScale.jpg
+  - img: img/Séjour.jpg
+  - img: img/MorpheusCup.jpg
+  keywords:
+  - virtual experience
+  - realtime render
+  - real estate
+  - flexible service
+  - self modification
+  - materials & furniture
+  - immersive technology
+  - innovative services
 
-# - title: "Fouad Chehab Stadium: Community Sports Hub"
-#   subtitle: From a municipal stadium to a sports hub
-#   description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
-#   author: "Christian Dimitri"
-#   project-location: Jounieh - Lebanon
-#   area: 30 000 $m^2$
-#   date: June 2016
-#   tools: 
-#   - autocad
-#   - 3Dsmax
-#   - Vray
-#   - photoshop
-#   - autodesk 123D
-#   category: Architecture masters thesis
-#   firm: "Holy Spirit University of Kaslik (USEK)"
-#   supervisor: Abdel Halim Jabr
-#   index-img: img/PFSkyview.jpg
-#   location: Kaslik - Lebanon
-#   big-images:
-#   - img: img/PFSkyview.jpg
-#   - img: img/MassPlan.jpg
-#   small-images:
-#   # - img: img/PFaxocroped.jpg
-#   - img: img/SectionBBCCfinal.jpg  
-#   - img: img/SouthRoadperspective.jpg
-#   - img: img/TalusVuStadecopyCroped.jpg
-#   keywords:
-#   - urban design
-#   - public domain
-#   - sports hub
-#   - municipal stadium
-#   - public spaces
-#   - humanitize the land
-#   - city cycling path
-#   - green roof
+- title: "Fouad Chehab Stadium: Community Sports Hub"
+  subtitle: From a municipal stadium to a sports hub
+  description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 30 000 $m^2$
+  date: June 2016
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  - autodesk 123D
+  category: Architecture masters thesis
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Abdel Halim Jabr
+  index-img: img/PFSkyview.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: img/PFSkyview.jpg
+  - img: img/MassPlan.jpg
+  small-images:
+  - img: img/SectionBBCCfinal.jpg  
+  - img: img/SouthRoadperspective.jpg
+  - img: img/TalusVuStadecopyCroped.jpg
+  keywords:
+  - urban design
+  - public domain
+  - sports hub
+  - municipal stadium
+  - public spaces
+  - humanitize the land
+  - city cycling path
+  - green roof
 
-# - title: LRCEMS
-#   subtitle: Lebanese red cross new center
-#   description: "In the occasion."
-#   author: "Christian Dimitri"
-#   project-location: Sahel Alma - Lebanon
-#   area: 7 500 $m^2$
-#   date: June 2014
-#   tools: 
-#   - autocad
-#   - 3Dsmax
-#   - Vray
-#   - photoshop
-#   category: Facade design proposal
-#   firm: "BlankWorkshop"
-#   supervisor: Anthonios Rizk, Georges Nicolas
-#   index-img: img/LRC.jpg
-#   location: Sarba - Lebanon
-#   big-images:
-#   - img: img/LRC.jpg
-#   - img: img/LRC1.jpg
-#   small-images:
-#   - img: img/LRC2.jpg
-#   - img: img/LRC3.jpg
-#   keywords:
-#   - box morphing
-#   - red cross
-#   - facade design
-#   - conceptual design
+- title: LRCEMS
+  subtitle: Lebanese red cross new center
+  description: "In the occasion."
+  author: "Christian Dimitri"
+  project-location: Sahel Alma - Lebanon
+  area: 7 500 $m^2$
+  date: June 2014
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Facade design proposal
+  firm: "BlankWorkshop"
+  supervisor: Anthonios Rizk, Georges Nicolas
+  index-img: img/LRC.jpg
+  location: Sarba - Lebanon
+  big-images:
+  - img: img/LRC.jpg
+  - img: img/LRC1.jpg
+  small-images:
+  - img: img/LRC2.jpg
+  - img: img/LRC3.jpg
+  keywords:
+  - box morphing
+  - red cross
+  - facade design
+  - conceptual design
 
-# - title: In between
-#   subtitle: Cultural and art center
-#   description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
-#   author: "Christian Dimitri"
-#   project-location: Batroun - Lebanon
-#   area: 7 500 $m^2$
-#   date: October 2013
-#   tools: 
-#   - autocad
-#   - 3Dsmax
-#   - Vray
-#   - photoshop
-#   category: Architecture design studio V
-#   firm: "Holy Spirit University of Kaslik (USEK)"
-#   supervisor: Fouad Gabriel
-#   index-img: img/InBetweenSkyviewCropped.jpg
-#   location: Kaslik - Lebanon
-#   big-images:
-#   - img: img/InBetweenAxo.jpg
-#   - img: img/InBetweenPerspective2.jpg 
-#   small-images:
-#   - img: img/InBetweenSkyviewCropped.jpg
-#   - img: img/InBetweenSection.jpg
-#   keywords:
-#   - stratified cultures
-#   - art & culture
-#   - mediterranean
-#   - old village
-#   - new citie
-#   - amphitheatre
-#   - multi-fucunction space
-#   - exhibition space
+- title: In between
+  subtitle: Cultural and art center
+  description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
+  author: "Christian Dimitri"
+  project-location: Batroun - Lebanon
+  area: 7 500 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: img/InBetweenSkyviewCropped.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: img/InBetweenAxo.jpg
+  - img: img/InBetweenPerspective2.jpg 
+  small-images:
+  - img: img/InBetweenSkyviewCropped.jpg
+  - img: img/InBetweenSection.jpg
+  keywords:
+  - stratified cultures
+  - art & culture
+  - mediterranean
+  - old village
+  - new citie
+  - amphitheatre
+  - multi-fucunction space
+  - exhibition space
 
-# - title: The Heart of the Campus
+- title: The Heart of the Campus
   subtitle: Sports & health center
   description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
   author: "Christian Dimitri"
