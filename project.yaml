@@ -11,6 +11,7 @@ linkedin-link: https://www.linkedin.com/in/chrisdimitri/
 linkedin-icon: fab fa-linkedin-in fa-4x
 github-link: https://github.com/christiandimitri
 github-icon: fab fa-github fa-4x
+something: Work !!! It's just a serious fun ...
 say-something: You can still visit my website
 personal-link: https://chrisdimi.me
 link-holder: here
@@ -62,7 +63,7 @@ projects:
   - frame fields
   - subdivision technique
 
-# - title: "Chebyshev Net Triangular Gridshell"
+- title: "Chebyshev Net Triangular Gridshell"
   subtitle: Design & construction of a spherical actively-bent gridshell covered by a stretchable membrane
   description: "The aim of this study is to design and build a 6 m diameter dome structure covered by a stretchable membrane; using the previously published work in Chebyshev Net gridshells [Baverel et al.], the introduction of singularity points in the grid design [Yannick Masson et al.]. A special case exists when introducing a single valence 3 singularity on the center of a spherical dome: the bracing of each patch follows the same direction as the rods of its neighbouring patches, leading to the assumption that structure and bracing could effectively be the same element. Regarding the design & construction of the membrane, some assumptions had to be made in order to simplify the welding process."
   author: "Christian Dimitri, Martina Fabré, Noelia Rodriguez, Jatziri Rodriguez, Alan Rynne, Martí Sais"
@@ -284,7 +285,7 @@ projects:
   - rhino3d
   - grasshopper3d
   - kangaroo2
-  - kangaroo engineering
+  - k2 engineering
   - karamba3D
   - VSC
   - Csharp

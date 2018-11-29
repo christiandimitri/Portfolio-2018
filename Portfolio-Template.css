@@ -506,6 +506,18 @@ h6{
     height: 100%;
 }
 
+.quote{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 50px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font: 400 45px/0.8 'Cookie', Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
 .visit{
     display: flex;
     flex-direction: row;
