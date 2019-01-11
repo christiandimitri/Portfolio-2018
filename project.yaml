@@ -260,11 +260,11 @@ projects:
   category: Programing
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
-  index-img: img/growth.gif
+  index-img: img/growth-index.jpg
   location: Barcelona - Spain
   big-images:
   - img: img/AlgorithmCode.jpg
-  - img: img/growth.gif
+  - img: img/growth.jpg
   small-images:
   - img: img/Dendrogram.jpg  
   - img: img/FractalTree.jpg
