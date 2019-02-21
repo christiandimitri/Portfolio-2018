@@ -212,38 +212,7 @@ projects:
   - sculpting art
   - toolpath experimenting
 
-# - title: Parametric Design in Planning and Landscape
-#   subtitle: Visualizing building energy efficiency over time
-#   description: "."
-#   author: "Christian Dimitri"
-#   date: April 2018
-#   project-location: Spain
-#   area: 20 000 $m^2$
-#   tools: 
-#   - rhino3d
-#   - grasshopper3d
-#   - python
-#   - VS
-#   - Csharp
-#   category: Data acquisition and visualisation
-#   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
-#   supervisor: Gerard Bertomeu
-#   index-img: img/.jpg
-#   location: Barcelona - Spain
-#   big-images:
-#   - img: img/.jpg
-#   small-images:
-#   - img: 
-#   - img: 
-#   keywords:
-#   - planning & landscape
-#   - data acquisition
-#   - public space
-#   - earthworks
-#   - cavities
-#   - drainage design
-#   - paths
-#   - slopes
+
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
@@ -515,6 +484,35 @@ projects:
   - parametric facade
   - box morphing
 
-
+- title: Developable Lavabo
+  subtitle: Customized Parametric Furniture
+  description: "In collaboration with an industrial robot manufacturar, I had the chance to create and design a parametric lavabo. The entity can be used a as single or a double lavabo, the dimensions are computed using functions that parametrize the mesh. The weight is optimized under a certain minimum. The user can modify the dimensions live, and make it suite the space he needs."
+  author: "Christian Dimitri"
+  date: January 2018
+  project-location: Spain
+  mass: 70 $kg$ - 121 $kg$
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - Keyshot3D
+  category: Series of parametric furniture
+  firm: "Collaboration"
+  client: Nerinea-Essence Natural Stone
+  index-img: img/Lavabo_rendering_final.1.jpg
+  location: Spain
+  big-images:
+  - img: img/Lavabo_rendering_final.1.jpg
+  - img: img/Lavabo_rendering_final.4.jpg
+  small-images:
+  - img: img/Portfolio-100.jpg
+  keywords:
+  - customized furniture
+  - parametric furniture
+  - live modification
+  - uniqueness
+  - developable surfaces
+  - smooth meshes
+  - computational design
+  - luxurious lavabo
 ---
 

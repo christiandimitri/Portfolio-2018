@@ -136,6 +136,12 @@
                         <p class="authors">$projects.area$</p>
                         $endif$
                     </div>
+                    <div class="project-author">
+                        $if(projects.mass)$
+                        <h6 class="project-detail">MASS:</h6>
+                        <p class="authors">$projects.mass$</p>
+                        $endif$
+                    </div>
                 </div>
                 <div class="bottom-row">
                     <div class="tools">
@@ -185,6 +191,12 @@
                     <div class="project-author no-border">
                         <h6 class="project-detail" id="supervisor">CO-FOUNDER:</h6>
                         <p class="authors align">$projects.co-founder$</p>
+                    </div>
+                    $endif$
+                    $if(projects.client)$
+                    <div class="project-author no-border">
+                        <h6 class="project-detail" id="supervisor">CLIENT:</h6>
+                        <p class="authors align">$projects.client$</p>
                     </div>
                     $endif$
                 </div>
