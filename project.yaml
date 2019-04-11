@@ -21,12 +21,146 @@ mail: contact@chrisdimi.me
 author:
   name: Christian Dimitri
   img:  
-  description: I am Christian Dimitri, I am an optimistic Architect specialized in parametric architecture and computational design. As a self taught computational designer and 3D visualizer, I am able to say that I am familiar with the computational tools available today.
+  description: I am Christian Dimitri, an Architect specialized in parametric architecture. I am a self-taught programmer and 3D visualizer.
 projects:
+
+- title: Ultimate Emoji
+  subtitle: Artificially-generated for a specific city-location
+  description: In Collaboration with Noumena, I had the chance to be involved in the digital fabrication process and graphics of the "Ultimate Emoji by Albert Barque Duran" that is a performance and an installation that uses an artificially-generated Emoji sculpture to reflect on how digital “memes” shape our present cultural values and understandings of our emotions. It is located where the performance took place – Disseny Hub Barcelona for the Mobile World Congress 2019.
+  author: Albert Barque Duran
+  date: February 2019
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - illustrator
+  - after effects
+  category: Digital fabrication
+  firm: Noumena
+  location: Barcelona
+  supervisor: Eugenio Bettuchini
+  index-img: img/emojiMuseum.jpg
+  big-images:
+  - img: img/Emoji1.jpg
+  - img: img/emojiMuseum.jpg
+  small-images:
+  - img: img/Frame1.jpg
+  - img: img/Frame2.jpg
+  - img: img/Frame3.jpg
+  - img: img/Frame4.jpg
+
+  keywords: 
+  - digital fabrication
+  - 3d printing
+  - wasp hub
+  - collaboration
+  - ultimate emoji
+  - MWC 2019
+  - cognitive science
+  - emoji sculpture 
+
+- title: Gyroid tower Lamp
+  subtitle: Conceptual design for a 3D printed tower lamp 
+  description: In my internship, as a design proposal challenge for a tower lamp, is designed after generating one minimal surface called "Gyroid", then arrayed and deformed. The 3d printer machine at WASP hub only prints a 70cm height, so the tower will be segmented into three parts stable under the gravity. Therefore the light is fixed from inside each gyroid and can be flexibly oriented.
+  author: Christian Dimitri
+  date: March 2019
+  height: 2 $m$
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - kangaroo2
+  - keyshot3d
+  category: Conceptual design & digital fabrication
+  firm: Noumena
+  location: Barcelona
+  supervisor: Eugenio Bettuchini
+  index-img: img/gyroid.jpg
+  big-images:
+  - img: img/SingleGyroid.jpg
+  - img: img/GyroidPersp.jpg
+  small-images:
+  - img: img/gyroidbase.jpg
+  - img: img/GyroidTop.jpg
+  - img: img/GyroidXray.jpg
+  keywords: 
+  - minimal surface
+  - triply periodic
+  - gyroid
+  - lamp tower
+  - 3d printing
+  - plastic
+  - wasp hub
+  - design proposal
+
+- title: Grasshopper plugin development
+  subtitle: Object oriented programming
+  description: 
+  author: 
+  date: March 2019
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - C#
+  - VS
+  category: 
+  firm: 
+  location: 
+  supervisor: 
+  index-img: img/
+  big-images:
+  - img: img/
+  - img: img/
+  small-images:
+  - img: img/
+  - img: img/
+  - img: img/
+  - img: img/
+
+  keywords: 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+
+- title: Developable Lavabo
+  subtitle: Customized Parametric Furniture
+  description: "In collaboration with an industrial robot manufacturar, I had the chance to create and design a parametric lavabo. The entity can be used a as single or a double lavabo, the dimensions are computed using functions that parametrize the mesh. The weight is optimized under a certain minimum. The user can modify the dimensions live, and make it suite the space he needs."
+  author: "Christian Dimitri"
+  date: January 2018
+  project-location: Spain
+  mass: 70 $kg$ - 121 $kg$
+  tools: 
+  - rhino3d
+  - grasshopper3d
+  - Keyshot3D
+  category: Series of parametric furniture
+  firm: "Collaboration"
+  client: Nerinea-Essence Natural Stone
+  index-img: img/Lavabo_rendering_final.1.jpg
+  location: Spain
+  big-images:
+  - img: img/Lavabo_rendering_final.1.jpg
+  - img: img/Lavabo_rendering_final.4.jpg
+  small-images:
+  - img: img/Portfolio-100.jpg
+  keywords:
+  - customized furniture
+  - parametric furniture
+  - live modification
+  - uniqueness
+  - developable surfaces
+  - smooth meshes
+  - computational design
+  - luxurious lavabo
+
 
 - title: Planar Quads in Free-Form Surfaces
   subtitle: "Architecture geometry: Rationalization technqiues for Planar Quad meshes"
-  description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, we will covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, we will explain the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers, and were applied to concrete architectural projects. Combining chapter two and chapter three iteratively, we will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
+  description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, I will be covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, I will explain later the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers references, and were applied to real architectural projects. Combining chapter two and chapter three iteratively, I will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
   author: "Christian Dimitri"
   date: July 2018
   tools: 
@@ -107,7 +241,6 @@ projects:
   - active bending
   - elastic membrane
 
-
 - title: "Geodesic Gridshells: Waitomo Caves Visitor Center"
   subtitle: Building systems optimization
   description: "This research presents a case study of the Waitomo caves visitor center, explaining the different design strategies going from the form-finding and analysis till the optimization of the building system. The final step consists of adapting the same design system after collecting the information in the previous step onto a free form surface. The project is a wooden grid shell made of geodesic beam on a toroid. In order to study the project multiple 3D models where made to approximate the real project then analyzing and comparing the data between different 3D results."
@@ -142,7 +275,6 @@ projects:
   - etfe cuchon
   - system optimization
   - geometric adaptation
-
 
 - title: "Digital Fabrication 2D Machining: Planar Quad Stripes"
   subtitle: Dupin cyclide rationalization
@@ -211,8 +343,6 @@ projects:
   - 3D art
   - sculpting art
   - toolpath experimenting
-
-
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
@@ -484,35 +614,6 @@ projects:
   - parametric facade
   - box morphing
 
-- title: Developable Lavabo
-  subtitle: Customized Parametric Furniture
-  description: "In collaboration with an industrial robot manufacturar, I had the chance to create and design a parametric lavabo. The entity can be used a as single or a double lavabo, the dimensions are computed using functions that parametrize the mesh. The weight is optimized under a certain minimum. The user can modify the dimensions live, and make it suite the space he needs."
-  author: "Christian Dimitri"
-  date: January 2018
-  project-location: Spain
-  mass: 70 $kg$ - 121 $kg$
-  tools: 
-  - rhino3d
-  - grasshopper3d
-  - Keyshot3D
-  category: Series of parametric furniture
-  firm: "Collaboration"
-  client: Nerinea-Essence Natural Stone
-  index-img: img/Lavabo_rendering_final.1.jpg
-  location: Spain
-  big-images:
-  - img: img/Lavabo_rendering_final.1.jpg
-  - img: img/Lavabo_rendering_final.4.jpg
-  small-images:
-  - img: img/Portfolio-100.jpg
-  keywords:
-  - customized furniture
-  - parametric furniture
-  - live modification
-  - uniqueness
-  - developable surfaces
-  - smooth meshes
-  - computational design
-  - luxurious lavabo
+  
 ---
 
