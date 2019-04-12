@@ -91,39 +91,6 @@ projects:
   - wasp hub
   - design proposal
 
-- title: "Mesh: Ripple, Recursive"
-  subtitle: Grasshopper first component
-  description: After developing my passion and knowledge in OOP at MPDA Barcelona-Tech, I am still coding and improving my skills for better computation capabilities. Therefore I started writing custom grasshopper component inspired by fun algorithm. The first component is based on the ripple effect function that is applied on each of the points of the mesh and last the mesh is rebuilt with the new deformed points. The second algorithm is based on the recursion of the mesh faces as much iterations as the users wishes. You can find the components in my github repisotories.
-  author: Christian Dimitri
-  date: March 2019
-  tools: 
-  - grasshopper3d
-  - rhino3d
-  - C#
-  - VS
-  category: Object oriented programming
-  location: Barcelona
-  index-img: img/
-  big-images:
-  - img: img/
-  - img: img/
-  small-images:
-  - img: img/
-  - img: img/
-  - img: img/
-  - img: img/
-
-  keywords: 
-  - ripple
-  - recursive
-  - algorithms
-  - code
-  - first component
-  - grasshopper
-  - rhino
-  - Csharp
-
-
 - title: Developable Lavabo
   subtitle: Customized Parametric Furniture
   description: "In collaboration with an industrial robot manufacturar, I had the chance to create and design a parametric lavabo. The entity can be used a as single or a double lavabo, the dimensions are computed using functions that parametrize the mesh. The weight is optimized under a certain minimum. The user can modify the dimensions live, and make it suite the space he needs."
