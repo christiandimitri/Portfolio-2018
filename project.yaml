@@ -106,11 +106,10 @@ projects:
   index-img: img/meshRipple.jpg
   big-images:
   - img: img/meshRipple.jpg
+  - img: img/meshRecursive.jpg
   small-images:
-  - img: img/
-  - img: img/
-  - img: img/
-  - img: img/
+  - img: img/MeshRippleDefinition.jpg
+  - img: img/meshRecursiveDefinition.jpg
 
   keywords: 
   - ripple
