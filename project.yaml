@@ -103,9 +103,9 @@ projects:
   - VS
   category: Object oriented programming
   location: Barcelona
-  index-img: img/
+  index-img: img/meshRipple.jpg
   big-images:
-  - img: img/
+  - img: img/meshRipple.jpg
   - img: img/
   small-images:
   - img: img/
