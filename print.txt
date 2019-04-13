@@ -5,3 +5,5 @@ linkedin.com/in/chrisdimitri
 github.com/christiandimitri
 
 magick mogrify -resize 1000x800 img/*.jpg
+
+
