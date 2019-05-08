@@ -7,3 +7,4 @@ github.com/christiandimitri
 magick mogrify -resize 1000x800 img/*.jpg
 
 
+mogrify -quality 72 -path imgLessQ/*.jpg

@@ -1,10 +1,10 @@
 ---
 title: PORTFOLIO 2018
 subtitle: Architecture & Parametric Design
-logo: img/logo.svg
-cover-img: img/61-IMG_9691-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS_2.jpg
+logo: imgLessQ/logo.svg
+cover-img: imgLessQ/61-IMG_9691-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS_2.jpg
 author-img: Andres Flajszer
-closing-img: img/59-IMG_9666-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.jpg
+closing-img: imgLessQ/59-IMG_9666-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.jpg
 instagram-link: https://www.instagram.com/chrisdimitri/?hl=en
 instagram-icon: fab fa-instagram fa-4x
 linkedin-link: https://www.linkedin.com/in/chrisdimitri/
@@ -38,15 +38,15 @@ projects:
   firm: Noumena
   location: Barcelona
   supervisor: Eugenio Bettuchini
-  index-img: img/emojiMuseum.jpg
+  index-img: imgLessQ/emojiMuseum.jpg
   big-images:
-  - img: img/Emoji1.jpg
-  - img: img/emojiMuseum.jpg
+  - img: imgLessQ/Emoji1.jpg
+  - img: imgLessQ/emojiMuseum.jpg
   small-images:
-  - img: img/Frame1.jpg
-  - img: img/Frame2.jpg
-  - img: img/Frame3.jpg
-  - img: img/Frame4.jpg
+  - img: imgLessQ/Frame1.jpg
+  - img: imgLessQ/Frame2.jpg
+  - img: imgLessQ/Frame3.jpg
+  - img: imgLessQ/Frame4.jpg
 
   keywords: 
   - digital fabrication
@@ -73,14 +73,14 @@ projects:
   firm: Noumena
   location: Barcelona
   supervisor: Eugenio Bettuchini
-  index-img: img/gyroid.jpg
+  index-img: imgLessQ/gyroid.jpg
   big-images:
-  - img: img/SingleGyroid.jpg
-  - img: img/GyroidPersp.jpg
+  - img: imgLessQ/SingleGyroid.jpg
+  - img: imgLessQ/GyroidPersp.jpg
   small-images:
-  - img: img/gyroidbase.jpg
-  - img: img/GyroidTop.jpg
-  - img: img/GyroidXray.jpg
+  - img: imgLessQ/gyroidbase.jpg
+  - img: imgLessQ/GyroidTop.jpg
+  - img: imgLessQ/GyroidXray.jpg
   keywords: 
   - minimal surface
   - triply periodic
@@ -91,35 +91,35 @@ projects:
   - wasp hub
   - design proposal
 
-- title: "Mesh: Ripple, Recursive"
-  subtitle: Grasshopper first component
-  description: After developing my passion and knowledge in OOP at MPDA Barcelona-Tech, I am still coding and improving my skills for better computation capabilities. Therefore I started writing custom grasshopper component inspired by fun algorithm. The first component is based on the ripple effect function that is applied on each of the points of the mesh and last the mesh is rebuilt with the new deformed points. The second algorithm is based on the recursion of the mesh faces as much iterations as the users wishes. You can find the components in my github repisotories.
-  author: Christian Dimitri
-  date: March 2019
-  tools: 
-  - grasshopper3d
-  - rhino3d
-  - C#
-  - VS
-  category: Object oriented programming
-  location: Barcelona
-  index-img: img/meshRipple.jpg
-  big-images:
-  - img: img/meshRipple.jpg
-  - img: img/meshRecursive.jpg
-  small-images:
-  - img: img/MeshRippleDefinition.jpg
-  - img: img/meshRecursiveDefinition.jpg
+# - title: "Mesh: Ripple, Recursive"
+#   subtitle: Grasshopper first component
+#   description: After developing my passion and knowledge in OOP at MPDA Barcelona-Tech, I am still coding and improving my skills for better computation capabilities. Therefore I started writing custom grasshopper component inspired by fun algorithm. The first component is based on the ripple effect function that is applied on each of the points of the mesh and last the mesh is rebuilt with the new deformed points. The second algorithm is based on the recursion of the mesh faces as much iterations as the users wishes. You can find the components in my github repisotories.
+#   author: Christian Dimitri
+#   date: March 2019
+#   tools: 
+#   - grasshopper3d
+#   - rhino3d
+#   - C#
+#   - VS
+#   category: Object oriented programming
+#   location: Barcelona
+#   index-img: imgLessQ/meshRipple.jpg
+#   big-images:
+#   - img: imgLessQ/meshRipple.jpg
+#   - img: imgLessQ/meshRecursive.jpg
+#   small-images:
+#   - img: imgLessQ/MeshRippleDefinition.jpg
+#   - img: imgLessQ/meshRecursiveDefinition.jpg
 
-  keywords: 
-  - ripple
-  - recursive
-  - algorithms
-  - code
-  - first component
-  - grasshopper
-  - rhino
-  - Csharp
+#   keywords: 
+#   - ripple
+#   - recursive
+#   - algorithms
+#   - code
+#   - first component
+#   - grasshopper
+#   - rhino
+#   - Csharp
 
 
 - title: Developable Lavabo
@@ -136,13 +136,13 @@ projects:
   category: Series of parametric furniture
   firm: "Collaboration"
   client: Nerinea-Essence Natural Stone
-  index-img: img/Lavabo_rendering_final.1.jpg
+  index-img: imgLessQ/Lavabo_rendering_final.1.jpg
   location: Spain
   big-images:
-  - img: img/Lavabo_rendering_final.1.jpg
-  - img: img/Lavabo_rendering_final.4.jpg
+  - img: imgLessQ/Lavabo_rendering_final.1.jpg
+  - img: imgLessQ/Lavabo_rendering_final.4.jpg
   small-images:
-  - img: img/Portfolio-100.jpg
+  - img: imgLessQ/Portfolio-100.jpg
   keywords:
   - customized furniture
   - parametric furniture
@@ -155,7 +155,7 @@ projects:
 
 
 - title: Planar Quads in Free-Form Surfaces
-  subtitle: "Architecture geometry: Rationalization technqiues for Planar Quad meshes"
+  subtitle: "Architecture geometry: Rationalization techniques for Planar Quad meshes"
   description: "This paper will cover the preprocessing techniques for planar quad meshes in architecture free-form surfaces. As a first step, I will be covering the problems and objectives behind *PQ meshes* for construction, their benefits, their metrics as well as their goals, considering their constraints for a better optimization of the candidate *PQ mesh*. Secondly, I will explain later the several preprocessing algorithms that generate a candidate *PQ mesh* ready for optimization. In addition to that, the output will be optimized according to it's properties qualifying it to be *PQ meshes*. The last-mentioned are based on scientific papers references, and were applied to real architectural projects. Combining chapter two and chapter three iteratively, I will be hitting the last chapter of this paper; generating subdivision method algorithm and a quad planarization in order to have a planar quad mesh."
   author: "Christian Dimitri"
   date: July 2018
@@ -175,14 +175,14 @@ projects:
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   location: Barcelona - Spain
   supervisor: Enrique Soriano
-  index-img: img/BenchmarkPQMesh@10x.jpg
+  index-img: imgLessQ/BenchmarkPQMesh@10x.jpg
   big-images:
-  - img: img/PositiveCurvaturePQMesh@10x.jpg
-  - img: img/BenchmarkPQMesh@10x.jpg
+  - img: imgLessQ/PositiveCurvaturePQMesh@10x.jpg
+  - img: imgLessQ/BenchmarkPQMesh@10x.jpg
   small-images:
-  - img: img/Int@10x.jpg
-  - img: img/FF@10x.jpg
-  - img: img/PQOptimized.jpg
+  - img: imgLessQ/Int@10x.jpg
+  - img: imgLessQ/FF@10x.jpg
+  - img: imgLessQ/PQOptimized.jpg
   keywords: 
   - free-form surfaces
   - planarity
@@ -213,18 +213,18 @@ projects:
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
   location: Barcelona - Spain
-  index-img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  index-img: imgLessQ/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
   big-images:
-  - img: img/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  - img: imgLessQ/51-IMG_9497-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
     author: Andres Flajszer
     link: http://www.andresflajszer.com/
-  - img: img/botellas-centro.gif
+  - img: imgLessQ/botellas-centro.gif
   small-images:
-  - img: img/LoadCase.jpg
-  - img: img/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
+  - img: imgLessQ/LoadCase.jpg
+  - img: imgLessQ/30-IMG_8872-8888-5250-Andres-Flajszer-CODA-MPDA.jpg
     author: Andres Flajszer
     link: http://www.andresflajszer.com/
-  - img: img/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
+  - img: imgLessQ/60-IMG_9676-5250-Andres-Flajszer-CODA-MPDA-GRIDSHELLS.JPG
     author: Andres Flajszer    
     link: http://www.andresflajszer.com/
   keywords: 
@@ -253,15 +253,15 @@ projects:
   category: Case study
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
-  index-img: img/Waitomo.jpg
+  index-img: imgLessQ/Waitomo.jpg
   location: Barcelona - Spain
   big-images:
-  - img: img/WaitomoCoverimg@10x.jpg
-  - img: img/WaitomoAxo.jpg
-  - img: img/WaitomoDupinAdapAxo.jpg
+  - img: imgLessQ/WaitomoCoverimg@10x.jpg
+  - img: imgLessQ/WaitomoAxo.jpg
+  - img: imgLessQ/WaitomoDupinAdapAxo.jpg
   small-images:
-  - img: img/Waitomo.jpg
-  - img: img/AdaptedWaitomoDupin.jpg
+  - img: imgLessQ/Waitomo.jpg
+  - img: imgLessQ/AdaptedWaitomoDupin.jpg
   keywords:
   - geodesic gridshells
   - lightweight structure
@@ -288,16 +288,16 @@ projects:
   category: Architecture geometry
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Gerard Bertomeu
-  index-img: img/DupinMockup.jpg
+  index-img: imgLessQ/DupinMockup.jpg
   location: Kaslik, Lebanon
   big-images:
-  - img: img/DupinMockup.jpg
-  - img: img/DupinNesting.jpg
+  - img: imgLessQ/DupinMockup.jpg
+  - img: imgLessQ/DupinNesting.jpg
   small-images:
-  - img: img/DupinCoarse.jpg 
-  - img: img/DupinPullToMesh.jpg 
-  - img: img/DupinAnalized.jpg
-  - img: img/DupinOptimized.jpg
+  - img: imgLessQ/DupinCoarse.jpg 
+  - img: imgLessQ/DupinPullToMesh.jpg 
+  - img: imgLessQ/DupinAnalized.jpg
+  - img: imgLessQ/DupinOptimized.jpg
   keywords:
   - dupin cyclide
   - planar quad stripes
@@ -308,37 +308,37 @@ projects:
   - rationalisation
   - 2D machining
 
-- title: "Digital Fabrication 3D Machining: Kachigata"
-  subtitle: Experimenting tool-paths and tool-tips
-  description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface and generating a mesh following these streamlines. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
-  author: "Christian Dimitri"
-  project-location: Barcelona - Spain
-  date: February 2013
-  tools: 
-  - rhino3d
-  - rhinoCAM
-  - grasshopper3d
-  category: Digital fabrication
-  firm: "MPDA 18, Medio Design"
-  supervisor: Enrique Soriano, Gerard Bertomeu, Juan Pablo Quintero
-  index-img: img/Kachigata1.jpg
-  location: Barcelona - Spain
-  big-images:
-  - img: img/Kachigata1.jpg
-  small-images:
-  - img: img/Kachigata3.jpg 
-  - img: img/Kachigata4.jpg 
-  - img: img/Kachigata5.jpg
-  - img: img/Kachigata6.jpg
-  keywords:
-  - kachigata
-  - CNC machining
-  - digital fabrication
-  - vector field
-  - streamlines
-  - 3D art
-  - sculpting art
-  - toolpath experimenting
+# - title: "Digital Fabrication 3D Machining: Kachigata"
+#   subtitle: Experimenting tool-paths and tool-tips
+#   description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface and generating a mesh following these streamlines. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
+#   author: "Christian Dimitri"
+#   project-location: Barcelona - Spain
+#   date: February 2013
+#   tools: 
+#   - rhino3d
+#   - rhinoCAM
+#   - grasshopper3d
+#   category: Digital fabrication
+#   firm: "MPDA 18, Medio Design"
+#   supervisor: Enrique Soriano, Gerard Bertomeu, Juan Pablo Quintero
+#   index-img: imgLessQ/Kachigata1.jpg
+#   location: Barcelona - Spain
+#   big-images:
+#   - img: imgLessQ/Kachigata1.jpg
+#   small-images:
+#   - img: imgLessQ/Kachigata3.jpg 
+#   - img: imgLessQ/Kachigata4.jpg 
+#   - img: imgLessQ/Kachigata5.jpg
+#   - img: imgLessQ/Kachigata6.jpg
+#   keywords:
+#   - kachigata
+#   - CNC machining
+#   - digital fabrication
+#   - vector field
+#   - streamlines
+#   - 3D art
+#   - sculpting art
+#   - toolpath experimenting
 
 - title: Algorithm in Technology
   subtitle: Scripting and fun algorithm
@@ -355,14 +355,14 @@ projects:
   category: Programing
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: David Andres, Enrique Soriano, Ramon Sastre
-  index-img: img/growth-index.jpg
+  index-img: imgLessQ/growth-index.jpg
   location: Barcelona - Spain
   big-images:
-  - img: img/AlgorithmCode.jpg
-  - img: img/growth.jpg
+  - img: imgLessQ/AlgorithmCode.jpg
+  - img: imgLessQ/growth.jpg
   small-images:
-  - img: img/Dendrogram.jpg  
-  - img: img/FractalTree.jpg
+  - img: imgLessQ/Dendrogram.jpg  
+  - img: imgLessQ/FractalTree.jpg
   keywords:
   - nature
   - algorithms
@@ -388,16 +388,16 @@ projects:
   category: Building information
   firm: "MPDA 18 - Universitat Politècnica de Catalunya (UPC)"
   supervisor: Enrique Soriano, Pep Tornabell, Gerard Bertomeu
-  index-img: img/Jukbuin.jpg
+  index-img: imgLessQ/Jukbuin.jpg
   location: Barcelona - Spain
   big-images:
-  - img: img/MusmeciElevation.jpg
-  - img: img/Jukbuin.jpg
+  - img: imgLessQ/MusmeciElevation.jpg
+  - img: imgLessQ/Jukbuin.jpg
   small-images:
-  - img: img/KarambaMin0.13thickness.jpg  
-  - img: img/KarambaDef2.jpg
-  - img: img/Musmeci1.jpg
-  - img: img/Musmeci4.jpg
+  - img: imgLessQ/KarambaMin0.13thickness.jpg  
+  - img: imgLessQ/KarambaDef2.jpg
+  - img: imgLessQ/Musmeci1.jpg
+  - img: imgLessQ/Musmeci4.jpg
   keywords:
   - form-finding
   - lightweight structure
@@ -408,40 +408,40 @@ projects:
   - max displacement
   - utilization
 
-- title: "Insection"
-  subtitle: "ARTE ROBOTICA V.01: Computational robotic painting workshop"
-  description: "Insection is a visual representation of the method which an image could be distorted by the sound. The way a subject is perceived, it is isolated by itself. The aim of the attempt is to produce a final piece of work which should be generated by an image and a sound and moreover it should be a collaboration between gerative design and unexpectedness of the robot's work. This aspect or randomizing the final result gives the possibility of unlimited solutions and interpretations. Initially an image of an insect has been chosen and it was associated with the sound of the source. The image and the sound are working together in order to complete the perception of the idea about the insect. Insection is an attempt of visualizing the interaction between these three objective qualities of the subject: word, image and sound. The image of the insect is inserted into the software and translated into the language of the linear graphic which makes the interaction between an image and the graphic of the sound wave possible. Afterwards the sound wave and the linear image are put into superposition in order to observe the interaction between the two. The sound wave is glitching the linear image metamorphosing it into something new which cannot be related neither to the sound wave nor to the image."
-  author: "Christian Dimitri, Madeleine Dimitrova, Ben Tay"
-  project-location: WoMa Paris - France
-  date: October 2017
-  tools: 
-  - rhino3D
-  - grasshopper3d
-  - anemone
-  - taco ABB
-  - illustrator
-  - photoshop
-  - inDesign
-  category: Workshop
-  firm: "DesignMorphine, IAAC"
-  supervisor: Lidia Ratoi, Kunaljit Chadha
-  index-img: img/ArteRoboticaCertificate-100.jpg
-  location: Sofia - Bulgaria, Barcelona - Spain
-  big-images:
-  - img: img/ArteRoboticaCertificate-100.jpg
-  - img: img/DesignMorphoneOutput.jpg
-  small-images:
-  - img: img/Insection2.jpg 
-  - img: img/Insection1.jpg 
-  - img: img/Insection3.jpg
-  - img: img/Insection4.jpg
-  keywords:
-  - computational design
-  - digital art
-  - dadaist concepts
-  - ABB robot arm
-  - customized tooltip
-  - insection concept
+# - title: "Insection"
+#   subtitle: "ARTE ROBOTICA V.01: Computational robotic painting workshop"
+#   description: "Insection is a visual representation of the method which an image could be distorted by the sound. The way a subject is perceived, it is isolated by itself. The aim of the attempt is to produce a final piece of work which should be generated by an image and a sound and moreover it should be a collaboration between gerative design and unexpectedness of the robot's work. This aspect or randomizing the final result gives the possibility of unlimited solutions and interpretations. Initially an image of an insect has been chosen and it was associated with the sound of the source. The image and the sound are working together in order to complete the perception of the idea about the insect. Insection is an attempt of visualizing the interaction between these three objective qualities of the subject: word, image and sound. The image of the insect is inserted into the software and translated into the language of the linear graphic which makes the interaction between an image and the graphic of the sound wave possible. Afterwards the sound wave and the linear image are put into superposition in order to observe the interaction between the two. The sound wave is glitching the linear image metamorphosing it into something new which cannot be related neither to the sound wave nor to the image."
+#   author: "Christian Dimitri, Madeleine Dimitrova, Ben Tay"
+#   project-location: WoMa Paris - France
+#   date: October 2017
+#   tools: 
+#   - rhino3D
+#   - grasshopper3d
+#   - anemone
+#   - taco ABB
+#   - illustrator
+#   - photoshop
+#   - inDesign
+#   category: Workshop
+#   firm: "DesignMorphine, IAAC"
+#   supervisor: Lidia Ratoi, Kunaljit Chadha
+#   index-img: imgLessQ/ArteRoboticaCertificate-100.jpg
+#   location: Sofia - Bulgaria, Barcelona - Spain
+#   big-images:
+#   - img: imgLessQ/ArteRoboticaCertificate-100.jpg
+#   - img: imgLessQ/DesignMorphoneOutput.jpg
+#   small-images:
+#   - img: imgLessQ/Insection2.jpg 
+#   - img: imgLessQ/Insection1.jpg 
+#   - img: imgLessQ/Insection3.jpg
+#   - img: imgLessQ/Insection4.jpg
+#   keywords:
+#   - computational design
+#   - digital art
+#   - dadaist concepts
+#   - ABB robot arm
+#   - customized tooltip
+#   - insection concept
 
 - title: Building-Reality.com
   subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
@@ -460,14 +460,14 @@ projects:
   category: Start-up
   firm: Building Reality
   co-founder: Fabio Curia, Paul Berger
-  index-img: img/BldgRealityModification.jpg
+  index-img: imgLessQ/BldgRealityModification.jpg
   location: Villneuve-Loubet - France
   big-images:
-  - img: img/BldgRealityModification2.jpg 
+  - img: imgLessQ/BldgRealityModification2.jpg 
   small-images:
-  - img: img/BldgRealityScale.jpg
-  - img: img/Séjour.jpg
-  - img: img/MorpheusCup.jpg
+  - img: imgLessQ/BldgRealityScale.jpg
+  - img: imgLessQ/Séjour.jpg
+  - img: imgLessQ/MorpheusCup.jpg
   keywords:
   - virtual experience
   - realtime render
@@ -494,15 +494,15 @@ projects:
   category: Architecture masters thesis
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Abdel Halim Jabr
-  index-img: img/PFSkyview.jpg
+  index-img: imgLessQ/PFSkyview.jpg
   location: Kaslik - Lebanon
   big-images:
-  - img: img/PFSkyview.jpg
-  - img: img/MassPlan.jpg
+  - img: imgLessQ/PFSkyview.jpg
+  - img: imgLessQ/MassPlan.jpg
   small-images:
-  - img: img/SectionBBCCfinal.jpg  
-  - img: img/SouthRoadperspective.jpg
-  - img: img/TalusVuStadecopyCroped.jpg
+  - img: imgLessQ/SectionBBCCfinal.jpg  
+  - img: imgLessQ/SouthRoadperspective.jpg
+  - img: imgLessQ/TalusVuStadecopyCroped.jpg
   keywords:
   - urban design
   - public domain
@@ -528,14 +528,14 @@ projects:
   category: Facade design proposal
   firm: "BlankWorkshop"
   supervisor: Anthonios Rizk, Georges Nicolas
-  index-img: img/LRC.jpg
+  index-img: imgLessQ/LRC.jpg
   location: Sarba - Lebanon
   big-images:
-  - img: img/LRC.jpg
-  - img: img/LRC1.jpg
+  - img: imgLessQ/LRC.jpg
+  - img: imgLessQ/LRC1.jpg
   small-images:
-  - img: img/LRC2.jpg
-  - img: img/LRC3.jpg
+  - img: imgLessQ/LRC2.jpg
+  - img: imgLessQ/LRC3.jpg
   keywords:
   - box morphing
   - red cross
@@ -557,14 +557,14 @@ projects:
   category: Architecture design studio V
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Fouad Gabriel
-  index-img: img/InBetweenSkyviewCropped.jpg
+  index-img: imgLessQ/InBetweenSkyviewCropped.jpg
   location: Kaslik - Lebanon
   big-images:
-  - img: img/InBetweenAxo.jpg
-  - img: img/InBetweenPerspective2.jpg 
+  - img: imgLessQ/InBetweenAxo.jpg
+  - img: imgLessQ/InBetweenPerspective2.jpg 
   small-images:
-  - img: img/InBetweenSkyviewCropped.jpg
-  - img: img/InBetweenSection.jpg
+  - img: imgLessQ/InBetweenSkyviewCropped.jpg
+  - img: imgLessQ/InBetweenSection.jpg
   keywords:
   - stratified cultures
   - art & culture
@@ -590,16 +590,16 @@ projects:
   category: Architecture design studio V
   firm: "Holy Spirit University of Kaslik (USEK)"
   supervisor: Fouad Gabriel
-  index-img: img/SportsOutdoor.jpg
+  index-img: imgLessQ/SportsOutdoor.jpg
   location: Kaslik - Lebanon
   big-images:
-  - img: img/SportsOutdoorCropped.jpg
-  - img: img/SportsAxonometrie.jpg
+  - img: imgLessQ/SportsOutdoorCropped.jpg
+  - img: imgLessQ/SportsAxonometrie.jpg
   small-images:
-  - img: img/SportsInterior.jpg 
-  - img: img/SportsDiagram.jpg 
-  - img: img/SportsElevation1.jpg
-  - img: img/SportsElevation2.jpg
+  - img: imgLessQ/SportsInterior.jpg 
+  - img: imgLessQ/SportsDiagram.jpg 
+  - img: imgLessQ/SportsElevation1.jpg
+  - img: imgLessQ/SportsElevation2.jpg
   keywords:
   - tensile membrane
   - atrium
