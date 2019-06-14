@@ -24,72 +24,166 @@ author:
   description: I am Christian Dimitri, an Architect specialized in parametric architecture. I am a self-taught programmer and 3D visualizer.
 projects:
 
-- title: Ultimate Emoji
-  subtitle: Artificially-generated for a specific city-location
-  description: In Collaboration with Noumena, I had the chance to be involved in the digital fabrication process and graphics of the "Ultimate Emoji by Albert Barque Duran" that is a performance and an installation that uses an artificially-generated Emoji sculpture to reflect on how digital “memes” shape our present cultural values and understandings of our emotions. It is located where the performance took place – Disseny Hub Barcelona for the Mobile World Congress 2019.
-  author: Albert Barque Duran
-  date: February 2019
-  tools: 
-  - grasshopper3d
-  - rhino3d
-  - illustrator
-  - after effects
-  category: Digital fabrication
-  firm: Noumena
-  location: Barcelona
-  supervisor: Eugenio Bettuchini
-  index-img: imgLessQ/emojiMuseum.jpg
-  big-images:
-  - img: imgLessQ/Emoji1.jpg
-  - img: imgLessQ/emojiMuseum.jpg
-  small-images:
-  - img: imgLessQ/Frame1.jpg
-  - img: imgLessQ/Frame2.jpg
-  - img: imgLessQ/Frame3.jpg
-  - img: imgLessQ/Frame4.jpg
 
-  keywords: 
-  - digital fabrication
-  - 3d printing
-  - wasp hub
-  - collaboration
-  - ultimate emoji
-  - MWC 2019
-  - cognitive science
-  - emoji sculpture 
-
-- title: Gyroid tower Lamp
-  subtitle: Conceptual design for a 3D printed tower lamp 
-  description: In my internship, as a design proposal challenge for a tower lamp, is designed after generating one minimal surface called "Gyroid", then arrayed and deformed. The 3d printer machine at WASP hub only prints a 70cm height, so the tower will be segmented into three parts stable under the gravity. Therefore the light is fixed from inside each gyroid and can be flexibly oriented.
+- title: Refurnished village
+  subtitle: 3D Construction and Rendering
+  description: As a freelancer I had the chance to collaborate with the designer on modelling and visualizing the scenes according to the list of furtinure and the mood initially agreed on. I have set up the scenes using 3D max, some furniture are customly designed since the 3D models do not exist on the web. In addition to that the rendering have been done using Vray.
   author: Christian Dimitri
-  date: March 2019
-  height: 2 $m$
-  tools: 
-  - grasshopper3d
-  - rhino3d
-  - kangaroo2
-  - keyshot3d
-  category: Conceptual design & digital fabrication
-  firm: Noumena
+  date: June 2019
+  tools:
+  - 3Dsmax
+  - autocad
+  - vray
+  category: 3D Visualization
   location: Barcelona
-  supervisor: Eugenio Bettuchini
-  index-img: imgLessQ/gyroid.jpg
+  index-img: img/conf1.jpg
   big-images:
-  - img: imgLessQ/SingleGyroid.jpg
-  - img: imgLessQ/GyroidPersp.jpg
+  - img: img/conf2.jpg
+  - img: img/conf3.jpg
   small-images:
-  - img: imgLessQ/gyroidbase.jpg
-  - img: imgLessQ/GyroidTop.jpg
-  - img: imgLessQ/GyroidXray.jpg
-  keywords: 
-  - minimal surface
-  - triply periodic
-  - gyroid
-  - lamp tower
-  - 3d printing
-  - plastic
-  - wasp hub
-  - design proposal
+  - img: img/conf1.jpg
+  - img: img/conf4.jpg
+  - img: img/conf5.jpg
+  - img: img/conf6.jpg
+  keywords:
+  - 3d rendering
+  - interior design
+  - refurnishing
+  - 3d construction
+  - rh collection
+  - minimal architecture
+
+- title: The Heart of the Campus
+  subtitle: Sports & health center
+  description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: May 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: imgLessQ/SportsOutdoor.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: imgLessQ/SportsOutdoorCropped.jpg
+  - img: imgLessQ/SportsAxonometrie.jpg
+  small-images:
+  - img: imgLessQ/SportsInterior.jpg 
+  - img: imgLessQ/SportsDiagram.jpg 
+  - img: imgLessQ/SportsElevation1.jpg
+  - img: imgLessQ/SportsElevation2.jpg
+  keywords:
+  - tensile membrane
+  - atrium
+  - pedestrian passages
+  - sports community
+  - youth center
+  - health center
+  - parametric facade
+  - box morphing
+
+- title: "Fouad Chehab Stadium: Community Sports Hub"
+  subtitle: From a municipal stadium to a sports hub
+  description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 30 000 $m^2$
+  date: June 2016
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  - autodesk 123D
+  category: Architecture masters thesis
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Abdel Halim Jabr
+  index-img: imgLessQ/PFSkyview.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: imgLessQ/PFSkyview.jpg
+  - img: imgLessQ/MassPlan.jpg
+  small-images:
+  - img: imgLessQ/SectionBBCCfinal.jpg  
+  - img: imgLessQ/SouthRoadperspective.jpg
+  - img: imgLessQ/TalusVuStadecopyCroped.jpg
+  keywords:
+  - urban design
+  - public domain
+  - sports hub
+  - municipal stadium
+  - public spaces
+  - humanitize the land
+  - city cycling path
+  - green roof
+
+- title: LRCEMS
+  subtitle: Lebanese red cross new center
+  description: "In the occasion of a facade design competition I had the honor to win the first place in the challenge of covering the structure of new Lebanese Red Cross center. My creativity and my knowledge in digital tools and design drove me to design an iconic design. The latter is a double skin facade covered with ceramic panels on a metallic chassis. The panels are colored and culled in order to express and show the red cross on the main facade of the building. The stairs which embed the verticality of the geometry is colored in red in that way the center is hilighted."
+  author: "Christian Dimitri"
+  project-location: Sahel Alma - Lebanon
+  area: 7 500 $m^2$
+  date: June 2014
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Facade design proposal
+  firm: "BlankWorkshop"
+  supervisor: Anthonios Rizk, Georges Nicolas
+  index-img: imgLessQ/LRC.jpg
+  location: Sarba - Lebanon
+  big-images:
+  - img: imgLessQ/LRC.jpg
+  - img: imgLessQ/LRC1.jpg
+  small-images:
+  - img: imgLessQ/LRC2.jpg
+  - img: imgLessQ/LRC3.jpg
+  keywords:
+  - box morphing
+  - red cross
+  - facade design
+  - conceptual design
+
+- title: In between
+  subtitle: Cultural and art center
+  description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
+  author: "Christian Dimitri"
+  project-location: Batroun - Lebanon
+  area: 7 500 $m^2$
+  date: October 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: imgLessQ/InBetweenSkyviewCropped.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: imgLessQ/InBetweenAxo.jpg
+  - img: imgLessQ/InBetweenPerspective2.jpg 
+  small-images:
+  - img: imgLessQ/InBetweenSkyviewCropped.jpg
+  - img: imgLessQ/InBetweenSection.jpg
+  keywords:
+  - stratified cultures
+  - art & culture
+  - mediterranean
+  - old village
+  - new citie
+  - amphitheatre
+  - multi-fucunction space
+  - exhibition space
 
 # - title: "Mesh: Ripple, Recursive"
 #   subtitle: Grasshopper first component
@@ -121,7 +215,6 @@ projects:
 #   - rhino
 #   - Csharp
 
-
 - title: Developable Lavabo
   subtitle: Customized Parametric Furniture
   description: "In collaboration with an industrial robot manufacturar, I had the chance to create and design a parametric lavabo. The entity can be used a as single or a double lavabo, the dimensions are computed using functions that parametrize the mesh. The weight is optimized under a certain minimum. The user can modify the dimensions live, and make it suite the space he needs."
@@ -152,7 +245,6 @@ projects:
   - smooth meshes
   - computational design
   - luxurious lavabo
-
 
 - title: Planar Quads in Free-Form Surfaces
   subtitle: "Architecture geometry: Rationalization techniques for Planar Quad meshes"
@@ -308,6 +400,73 @@ projects:
   - rationalisation
   - 2D machining
 
+- title: Ultimate Emoji
+  subtitle: Artificially-generated for a specific city-location
+  description: In Collaboration with Noumena, I had the chance to be involved in the digital fabrication process and graphics of the "Ultimate Emoji by Albert Barque Duran" that is a performance and an installation that uses an artificially-generated Emoji sculpture to reflect on how digital “memes” shape our present cultural values and understandings of our emotions. It is located where the performance took place – Disseny Hub Barcelona for the Mobile World Congress 2019.
+  author: Albert Barque Duran
+  date: February 2019
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - illustrator
+  - after effects
+  category: Digital fabrication
+  firm: Noumena
+  location: Barcelona
+  supervisor: Eugenio Bettuchini
+  index-img: imgLessQ/emojiMuseum.jpg
+  big-images:
+  - img: imgLessQ/Emoji1.jpg
+  - img: imgLessQ/emojiMuseum.jpg
+  small-images:
+  - img: imgLessQ/Frame1.jpg
+  - img: imgLessQ/Frame2.jpg
+  - img: imgLessQ/Frame3.jpg
+  - img: imgLessQ/Frame4.jpg
+
+  keywords: 
+  - digital fabrication
+  - 3d printing
+  - wasp hub
+  - collaboration
+  - ultimate emoji
+  - MWC 2019
+  - cognitive science
+  - emoji sculpture 
+
+- title: Gyroid tower Lamp
+  subtitle: Conceptual design for a 3D printed tower lamp 
+  description: In my internship, as a design proposal challenge for a tower lamp, is designed after generating one minimal surface called "Gyroid", then arrayed and deformed. The 3d printer machine at WASP hub only prints a 70cm height, so the tower will be segmented into three parts stable under the gravity. Therefore the light is fixed from inside each gyroid and can be flexibly oriented.
+  author: Christian Dimitri
+  date: March 2019
+  height: 2 $m$
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - kangaroo2
+  - keyshot3d
+  category: Conceptual design & digital fabrication
+  firm: Noumena
+  location: Barcelona
+  supervisor: Eugenio Bettuchini
+  index-img: imgLessQ/gyroid.jpg
+  big-images:
+  - img: imgLessQ/SingleGyroid.jpg
+  - img: imgLessQ/GyroidPersp.jpg
+  small-images:
+  - img: imgLessQ/gyroidbase.jpg
+  - img: imgLessQ/GyroidTop.jpg
+  - img: imgLessQ/GyroidXray.jpg
+  keywords: 
+  - minimal surface
+  - triply periodic
+  - gyroid
+  - lamp tower
+  - 3d printing
+  - plastic
+  - wasp hub
+  - design proposal
+
 # - title: "Digital Fabrication 3D Machining: Kachigata"
 #   subtitle: Experimenting tool-paths and tool-tips
 #   description: "In the occasion of this task, I had the opportunity to generate a vector field on a surface and generating a mesh following these streamlines. This process was based on experimenting tool-paths using the available tool-tips in the factory. This art box shows a contrast between the rounded tool-tip and the sharp one."
@@ -443,7 +602,7 @@ projects:
 #   - customized tooltip
 #   - insection concept
 
-- title: Building-Reality.com
+- title: Building Reality
   subtitle: Optimized real estate prototyping solution innovative, immersive, adjustable
   description: "Collaborating with the software developers and the founders of the french startup that offers prototype services of buildings and renovating real estate through virtual reality experience. The essential element of our product is the ability to experience the future, to be immersed in it. Indeed, it provides the answer to a real client need. In today’s current market, with the existing software, it is impossible to move around inside your building project as you make enhancements or adjustments. However, with the new Reality Building software, this attractive idea becomes a reality. "
   author: "Fabio Curia, Paul Berger, Julia Merpillat, Axel Imerdis, Nicolas Laurent, Christian Dimitri, Lea Monnot"
@@ -477,139 +636,5 @@ projects:
   - materials & furniture
   - immersive technology
   - innovative services
-
-- title: "Fouad Chehab Stadium: Community Sports Hub"
-  subtitle: From a municipal stadium to a sports hub
-  description: "**Would the installement of new administrative and sports equipments on site of the Fouad Chehab Stadium supported by local investers and sponsors, be a solution for the enhancement of regional collectivity?** In the city of Jounieh are dispatched more than ten private sports facilities, offering an average of six activities each. However, existant building the stadium presents four possible choices of activity only. On the other side it is a cultural platform in summer; the Jounieh International Festival is hosted there, along with other festivities for the citizen and the surrounding regions. As shown in the picture above, it is clear that the regional radius is not proportional to its present day utility. This is why I developed a conceptual urban design, exploying the maximum of resources on site, creating an innovative potential upgrade under-estimated stadium."
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 30 000 $m^2$
-  date: June 2016
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  - autodesk 123D
-  category: Architecture masters thesis
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Abdel Halim Jabr
-  index-img: imgLessQ/PFSkyview.jpg
-  location: Kaslik - Lebanon
-  big-images:
-  - img: imgLessQ/PFSkyview.jpg
-  - img: imgLessQ/MassPlan.jpg
-  small-images:
-  - img: imgLessQ/SectionBBCCfinal.jpg  
-  - img: imgLessQ/SouthRoadperspective.jpg
-  - img: imgLessQ/TalusVuStadecopyCroped.jpg
-  keywords:
-  - urban design
-  - public domain
-  - sports hub
-  - municipal stadium
-  - public spaces
-  - humanitize the land
-  - city cycling path
-  - green roof
-
-- title: LRCEMS
-  subtitle: Lebanese red cross new center
-  description: "In the occasion of a facade design competition I had the honor to win the first place in the challenge of covering the structure of new Lebanese Red Cross center. My creativity and my knowledge in digital tools and design drove me to design an iconic design. The latter is a double skin facade covered with ceramic panels on a metallic chassis. The panels are colored and culled in order to express and show the red cross on the main facade of the building. The stairs which embed the verticality of the geometry is colored in red in that way the center is hilighted."
-  author: "Christian Dimitri"
-  project-location: Sahel Alma - Lebanon
-  area: 7 500 $m^2$
-  date: June 2014
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Facade design proposal
-  firm: "BlankWorkshop"
-  supervisor: Anthonios Rizk, Georges Nicolas
-  index-img: imgLessQ/LRC.jpg
-  location: Sarba - Lebanon
-  big-images:
-  - img: imgLessQ/LRC.jpg
-  - img: imgLessQ/LRC1.jpg
-  small-images:
-  - img: imgLessQ/LRC2.jpg
-  - img: imgLessQ/LRC3.jpg
-  keywords:
-  - box morphing
-  - red cross
-  - facade design
-  - conceptual design
-
-- title: In between
-  subtitle: Cultural and art center
-  description: "This site is located in north Lebanon, specifically in and old town called Batroun. It is in fact one of the most beautiful settings for meditterenean sea scent lovers. Suprisingly, it is one of the oldest cities in the world; Phoenicians founded this borough and handed it over to the orthodox, to finally fall into the ottoman's arms. That  being said, an architectural stratification imposes itself, as proof of an umissable clearly heavy cultural bakground. Hereinafter, the university's jury has decided the given subject: Art and cultural center. The building is located at the interface between the sunset by the sea and the city lights. As amazing as it seems, some constraints came along the way. The first and most important one was the matter of flowing circulation to both major points of site; in other words. I didn't want to reduce the space to a box. Henceforth, the west part of the building underwent an elevation and widening process, as well as the conception od an opening, giving on a wide view sea-side terrace, including an outdoor amphitheatre south, and an eysoothing landscape ensuring pedestrian continuity towards the architectural promenade-north, with the sea as only scenery."
-  author: "Christian Dimitri"
-  project-location: Batroun - Lebanon
-  area: 7 500 $m^2$
-  date: October 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: imgLessQ/InBetweenSkyviewCropped.jpg
-  location: Kaslik - Lebanon
-  big-images:
-  - img: imgLessQ/InBetweenAxo.jpg
-  - img: imgLessQ/InBetweenPerspective2.jpg 
-  small-images:
-  - img: imgLessQ/InBetweenSkyviewCropped.jpg
-  - img: imgLessQ/InBetweenSection.jpg
-  keywords:
-  - stratified cultures
-  - art & culture
-  - mediterranean
-  - old village
-  - new citie
-  - amphitheatre
-  - multi-fucunction space
-  - exhibition space
-
-- title: The Heart of the Campus
-  subtitle: Sports & health center
-  description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
-  author: "Christian Dimitri"
-  project-location: Jounieh - Lebanon
-  area: 25 000 $m^2$
-  date: May 2013
-  tools: 
-  - autocad
-  - 3Dsmax
-  - Vray
-  - photoshop
-  category: Architecture design studio V
-  firm: "Holy Spirit University of Kaslik (USEK)"
-  supervisor: Fouad Gabriel
-  index-img: imgLessQ/SportsOutdoor.jpg
-  location: Kaslik - Lebanon
-  big-images:
-  - img: imgLessQ/SportsOutdoorCropped.jpg
-  - img: imgLessQ/SportsAxonometrie.jpg
-  small-images:
-  - img: imgLessQ/SportsInterior.jpg 
-  - img: imgLessQ/SportsDiagram.jpg 
-  - img: imgLessQ/SportsElevation1.jpg
-  - img: imgLessQ/SportsElevation2.jpg
-  keywords:
-  - tensile membrane
-  - atrium
-  - pedestrian passages
-  - sports community
-  - youth center
-  - health center
-  - parametric facade
-  - box morphing
-
   
 ---
-
