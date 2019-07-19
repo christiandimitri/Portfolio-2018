@@ -91,35 +91,35 @@ projects:
   - wasp hub
   - design proposal
 
-# - title: "Mesh: Ripple, Recursive"
-#   subtitle: Grasshopper first component
-#   description: After developing my passion and knowledge in OOP at MPDA Barcelona-Tech, I am still coding and improving my skills for better computation capabilities. Therefore I started writing custom grasshopper component inspired by fun algorithm. The first component is based on the ripple effect function that is applied on each of the points of the mesh and last the mesh is rebuilt with the new deformed points. The second algorithm is based on the recursion of the mesh faces as much iterations as the users wishes. You can find the components in my github repisotories.
-#   author: Christian Dimitri
-#   date: March 2019
-#   tools: 
-#   - grasshopper3d
-#   - rhino3d
-#   - C#
-#   - VS
-#   category: Object oriented programming
-#   location: Barcelona
-#   index-img: imgLessQ/meshRipple.jpg
-#   big-images:
-#   - img: imgLessQ/meshRipple.jpg
-#   - img: imgLessQ/meshRecursive.jpg
-#   small-images:
-#   - img: imgLessQ/MeshRippleDefinition.jpg
-#   - img: imgLessQ/meshRecursiveDefinition.jpg
+- title: "Mesh: Ripple, Recursive"
+  subtitle: Grasshopper first component
+  description: After developing my passion and knowledge in OOP at MPDA Barcelona-Tech, I am still coding and improving my skills for better computation capabilities. Therefore I started writing custom grasshopper component inspired by fun algorithm. The first component is based on the ripple effect function that is applied on each of the points of the mesh and last the mesh is rebuilt with the new deformed points. The second algorithm is based on the recursion of the mesh faces as much iterations as the users wishes. You can find the components in my github repisotories.
+  author: Christian Dimitri
+  date: March 2019
+  tools: 
+  - grasshopper3d
+  - rhino3d
+  - C#
+  - VS
+  category: Object oriented programming
+  location: Barcelona
+  index-img: imgLessQ/meshRipple.jpg
+  big-images:
+  - img: imgLessQ/meshRipple.jpg
+  - img: imgLessQ/meshRecursive.jpg
+  small-images:
+  - img: imgLessQ/MeshRippleDefinition.jpg
+  - img: imgLessQ/meshRecursiveDefinition.jpg
 
-#   keywords: 
-#   - ripple
-#   - recursive
-#   - algorithms
-#   - code
-#   - first component
-#   - grasshopper
-#   - rhino
-#   - Csharp
+  keywords: 
+  - ripple
+  - recursive
+  - algorithms
+  - code
+  - first component
+  - grasshopper
+  - rhino
+  - Csharp
 
 
 - title: Developable Lavabo
@@ -610,6 +610,69 @@ projects:
   - parametric facade
   - box morphing
 
+  
+- title: Refurnished village
+  subtitle: 3D Construction and Rendering
+  description: As a freelancer I had the chance to collaborate with the designer on modelling and visualizing the scenes according to the list of furtinure and the mood initially agreed on. I have set up the scenes using 3D max, some furniture are customly designed since the 3D models do not exist on the web. In addition to that the rendering have been done using Vray.
+  author: Christian Dimitri
+  date: June 2019
+  tools:
+  - 3Dsmax
+  - autocad
+  - vray
+  category: 3D Visualization
+  location: Barcelona
+  index-img: img/conf1.jpg
+  big-images:
+  - img: img/conf2.jpg
+  - img: img/conf3.jpg
+  small-images:
+  - img: img/conf1.jpg
+  - img: img/conf4.jpg
+  - img: img/conf5.jpg
+  - img: img/conf6.jpg
+  keywords:
+  - 3d rendering
+  - interior design
+  - refurnishing
+  - 3d construction
+  - rh collection
+  - minimal architecture
+
+- title: The Heart of the Campus
+  subtitle: Sports & health center
+  description: "Education and it's various systems hasn't always been what it is today. From a class of two under a tree, to immense metling pot surface, the creation of universities is obviously a big game changer in the upgrade of education as a whole which happens to be the literal translation of the Latin word universitas, logically referring to our modern university. Thus the design approach was to create the best social environment possible for the university's sports and health center. Situated on Kaslik's main road, the new 25 000 $m^2$ facility includes competitive and recreational athletic facilities. As a major point to start off, i put my entire focus on the inner/outer pedestrian circulation; As it appears on the first graph, I have a located the density points of the pedestrians around campus and have joined them to a focal point situated in the exact middle of the site, therefore creating safe passages to the sports health center building."
+  author: "Christian Dimitri"
+  project-location: Jounieh - Lebanon
+  area: 25 000 $m^2$
+  date: May 2013
+  tools: 
+  - autocad
+  - 3Dsmax
+  - Vray
+  - photoshop
+  category: Architecture design studio V
+  firm: "Holy Spirit University of Kaslik (USEK)"
+  supervisor: Fouad Gabriel
+  index-img: imgLessQ/SportsOutdoor.jpg
+  location: Kaslik - Lebanon
+  big-images:
+  - img: imgLessQ/SportsOutdoorCropped.jpg
+  - img: imgLessQ/SportsAxonometrie.jpg
+  small-images:
+  - img: imgLessQ/SportsInterior.jpg 
+  - img: imgLessQ/SportsDiagram.jpg 
+  - img: imgLessQ/SportsElevation1.jpg
+  - img: imgLessQ/SportsElevation2.jpg
+  keywords:
+  - tensile membrane
+  - atrium
+  - pedestrian passages
+  - sports community
+  - youth center
+  - health center
+  - parametric facade
+  - box morphing
   
 ---
 
